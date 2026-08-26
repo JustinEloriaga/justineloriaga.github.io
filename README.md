@@ -2,12 +2,12 @@
 
 Personal academic site. Quarto project; static HTML output in `docs/`, served by GitHub Pages.
 
-## Before the first push — three things to change
+Live at <https://justineloriaga.com> (GitHub Pages, `main` branch, `/docs` folder).
 
-1. **`files/cv.pdf`** — still missing. The Curriculum vitae button on the home page and
-   the Download CV button on the CV page both link to `/files/cv.pdf`, so both 404 until
-   the file is there. Name it exactly `cv.pdf`.
-2. **`CNAME`** — says `justineloriaga.com`. Leave it unless the domain changes.
+`CNAME` holds the custom domain and is copied into `docs/` on every render. GitHub Pages
+reads `docs/CNAME` on each build, so do not delete it — and do not clear the Custom domain
+field in the Pages settings UI either, since that writes a commit directly to `main` and
+will desync your local clone.
 
 ## Layout
 
