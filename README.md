@@ -60,8 +60,44 @@ raw block — Pandoc reads that as a code block.
 
 ## Deploying
 
-Push to `main`. GitHub Pages is configured to serve from `main` branch, `/docs` folder,
-so a push is a deploy. Give it about a minute.
+Push to `main`. GitHub Pages serves from `main` branch, `/docs` folder, so a push is a
+deploy. Give it about a minute; the run shows up in the Actions tab as
+"pages build and deployment".
 
 `.nojekyll` and `CNAME` sit at the project root and are copied into `docs/` on every
-render — check they are there after the first build, since GitHub Pages needs both.
+render. GitHub Pages needs both — `.nojekyll` stops Jekyll from mangling `site_libs/`,
+and `docs/CNAME` is what tells Pages which custom domain to serve.
+
+## Domain and DNS
+
+`justineloriaga.com` is **registered at WordPress.com** and its nameservers still point
+there (`ns1`/`ns2`/`ns3.wordpress.com`). Only the records were repointed at GitHub — the
+registration was never transferred. Renewal and auto-renew stay in the WordPress.com
+account.
+
+Records live, as of August 2026:
+
+    A      @      185.199.108.153
+    A      @      185.199.109.153
+    A      @      185.199.110.153
+    A      @      185.199.111.153
+    AAAA   @      2606:50c0:8000::153
+    AAAA   @      2606:50c0:8001::153
+    AAAA   @      2606:50c0:8002::153
+    AAAA   @      2606:50c0:8003::153
+    CNAME  www    justineloriaga.github.io
+    NS     @      handled by WordPress.com   <- do not touch, this is the zone itself
+    TXT    _domainconnect                    <- inert WordPress.com leftover
+
+There are no MX records; no email runs on this domain.
+
+To edit them: wordpress.com -> Domains -> justineloriaga.com -> the three-dot menu ->
+Manage DNS. Ignore the two yellow banners there offering to "restore default A records"
+and "restore default CNAME record" — both point the domain back at WordPress.
+
+To roll back to WordPress in an emergency, delete the GitHub records and use those
+"restore default" links. TTL is 300s, so it takes about five minutes.
+
+Verify from a terminal:
+
+    dig +short justineloriaga.com A

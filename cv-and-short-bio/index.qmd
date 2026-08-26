@@ -21,10 +21,9 @@ middle-income economies and serves as a venue for policy dialogue and knowledge
 exchange across the region.
 
 He holds a Ph.D. in Economics from Emory University, completed under the auspices of
-the J. William Fulbright Scholarship, with a dissertation on *Narrative Identification
-of Vector Autoregressions* supervised by Juan Rubio-Ramírez. Before Emory he graduated
-summa cum laude with a B.Sc. in Applied Economics and an M.Sc. in Economics from
-De La Salle University, completing the ladderized degree in the fastest time recorded.
+the J. William Fulbright Scholarship. Before Emory he graduated summa cum laude with a
+B.Sc. in Applied Economics and an M.Sc. in Economics from De La Salle University,
+completing the ladderized degree in the fastest time recorded.
 
 His research is in macroeconomics, with a focus on Bayesian time-series econometrics
 and monetary economics. Recent work identifies Fed information shocks episode by
@@ -32,12 +31,10 @@ episode from the narrative record, replaces hard identifying restrictions with
 narrative ones in oil-market and monetary VARs, and studies how monetary policy,
 trade, and energy constraints propagate across Asia.
 
-He is an Associate Editor at the *DLSU Business & Economics Review* and referees for
-*The Review of Economics and Statistics*, the *Journal of Economic Dynamics and
-Control*, and the *International Journal of Forecasting*, among others. Before joining
-the Fund he was a Visiting Instructor at Emory University's Department of Data and
-Decision Sciences, an Assistant Professorial Lecturer at De La Salle University, and a
-Central Bank Associate at the Bangko Sentral ng Pilipinas.
+He is an Associate Editor at the *DLSU Business & Economics Review*. Before joining the
+Fund he was a Visiting Instructor at Emory University's Department of Data and Decision
+Sciences, an Assistant Professorial Lecturer at De La Salle University, and a Central
+Bank Associate at the Bangko Sentral ng Pilipinas.
 
 ```{=html}
 <div class="about rule-top">
