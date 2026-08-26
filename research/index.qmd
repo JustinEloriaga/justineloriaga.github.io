@@ -1,0 +1,341 @@
+---
+title: "Research"
+page-layout: article
+include-after-body:
+  text: |
+    <script src="/js/filters.js"></script>
+---
+
+<!--
+  HOW TO ADD A PAPER
+  ------------------
+  Copy one <article class="paper"> block below and edit it. Four things matter:
+
+    data-status   review | wp | forthcoming | published   (drives the filter chips)
+    <div class="tag">      the label shown on the left. Add class "live" for amber
+                           (under review), "out" for blue (published/forthcoming).
+    <details>              the abstract.
+    <div class="links">    PDF and journal links. For a PDF, put the file in files/
+                           and link it as /files/your-file.pdf
+
+  Within each group, papers WITH abstracts come first, then those without.
+  Keep that order when you add one.
+-->
+
+<p class="mono eyebrow">01 — Research</p>
+
+# Papers
+
+```{=html}
+<div class="filters" role="group" aria-label="Filter papers by status">
+  <button class="chip" data-filter="all" aria-pressed="true">All</button>
+  <button class="chip" data-filter="review" aria-pressed="false">Under review</button>
+  <button class="chip" data-filter="wp" aria-pressed="false">Working papers</button>
+  <button class="chip" data-filter="forthcoming" aria-pressed="false">Forthcoming</button>
+  <button class="chip" data-filter="published" aria-pressed="false">Published</button>
+</div>
+
+<div class="group">
+  <div class="group-label"><span>Working Papers and Work in Progress</span><span>Macro &amp; time series</span></div>
+
+  <article class="paper" data-status="review">
+    <div class="tag live">Under review</div>
+    <div>
+      <h3>The Fed Information Effect, Episode by Episode</h3>
+      <p class="note">Presented at the 94th Southern Economic Association Annual Conference</p>
+      <details><summary>Abstract</summary><p>The Fed information effect — whereby a policy tightening can signal Fed optimism and raise output and prices — appears at some FOMC meetings but not others. High-frequency studies classify individual meetings as information or policy surprises but cannot trace the macroeconomic dynamics of any single episode. Combining narrative sign restrictions with a systematic-monetary-policy SVAR, I recover episode-specific output and price responses for well-documented decisions from 1968 to 2025. The information channel is real but heterogeneous, largely muted, and increasingly rare, surviving only at genuine communication surprises. The results complement, rather than overturn, the response-to-news account of Bauer and Swanson.</p></details>
+      <div class="links">
+        <a href="/files/fed-information-effect-episode-by-episode.pdf">PDF</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="review">
+    <div class="tag live">Under review</div>
+    <div>
+      <h3>Room to Respond</h3>
+      <details><summary>Abstract</summary><p>When a financial crisis strikes, governments with room to act are believed to escape with smaller recessions, and one number dominates the assessment of that room: the ratio of public debt to GDP. Across 140 systemic banking crises since 1976, we find the ratio matters less, and differently, than the advice assumes. It adds nothing to crisis prediction once credit-boom symptoms are accounted for, and its association with severity is narrow, concentrated in advanced economies at long horizons and above 90 percent of GDP, while in emerging market and developing economies the average penalty at those horizons is demonstrably small, though tail outcomes are estimated less precisely. What debt does predict, strongly, is the response. Advanced economies entering a crisis with one standard deviation more debt tightened their budgets by more than four percentage points of GDP relative to low-debt peers. We therefore construct two indices, the transparent Policy Buffers Index and the outcome-based Effective Space Index, which carry information the ratio alone does not.</p></details>
+      <div class="links">
+        <a href="/files/room-to-respond.pdf">PDF</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Working paper</div>
+    <div>
+      <h3>Narratives, Not Hard Restrictions: Identifying Oil-Market and Monetary Policy Shocks</h3>
+      <p class="coauth">with Ana María Herrera and Elena Pesavento</p>
+      <details><summary>Abstract</summary><p>Set-identified structural VARs are routinely disciplined with hard point restrictions whose precise validity cannot be verified. Oil-market models cap the short-run supply elasticity and monetary models impose exact zeros in the policy rule. We show that a small number of narrative restrictions anchored to well-documented historical episodes can replace both devices. In a four-variable oil-market VAR, narrative restrictions reproduce the results of Kilian and Murphy (2014) without the elasticity bound. In a six-variable monetary VAR, they reproduce the benchmark of Arias, Caldara, and Rubio-Ramírez (2019) without the zero restrictions. History, rather than hard restrictions, disciplines the identified set.</p></details>
+      <div class="links">
+        <a href="/files/narratives-not-hard-restrictions.pdf">PDF</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Working paper</div>
+    <div>
+      <h3>Structural Oil Shocks Across Asia</h3>
+      <p class="coauth">with Zeqin Hou and Jiarui Li</p>
+      <details><summary>Abstract</summary><p>We estimate the effects of structurally identified oil shocks on output and inflation in eight Asian economies, using a Bayesian structural vector autoregression that separates oil-supply, global-demand, and speculative demand shocks. The effect of an oil price increase depends on its cause, and it differs across countries. A demand-driven increase raises output in six of the eight economies, because it arrives with a stronger world economy. A supply-driven increase of the same size is contractionary for some economies and close to neutral for others, and it lowers output most in Vietnam and the Philippines. The heterogeneity across countries and across shocks, rather than any single average effect, is the central result, and we use it to trace the regional consequences of concrete oil price episodes.</p></details>
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Working paper</div>
+    <div>
+      <h3>Trade Disruptions and Monetary Policy in Asia</h3>
+      <p class="coauth">with Qing Peng</p>
+      <details><summary>Abstract</summary><p>We study how heterogeneously Asian central banks respond to trade disruptions. Building on the policymaker uncertainty methodology of Cieslak et al. (2024), we construct text-based indices of perceived uncertainty and policy stance from 1,381 official documents published by ten Asian monetary authorities between 1999 and 2026. We add a trade policy uncertainty topic designed for precision, and we translate the dictionary into Chinese for the People’s Bank of China. The indices validate well: stance scores carry the correct sign in about 95 percent of more than fifty known policy phases, and every major uncertainty peak decomposes into a recognizable historical episode at the sentence level. Three findings stand out. First, trade policy uncertainty in central bank communication is a twin wave that appears in all ten jurisdictions, rising with the 2018–2019 trade war and again, more sharply in most cases, with the 2025 reciprocal tariff episode. Second, the same shock produced very different answers: in 2025 and 2026 the Bank of Japan communicated in strongly hawkish terms while the Philippines, India, Korea, Thailand, and China eased, so the dispersion of responses widened dramatically relative to 2018 and 2019. Third, the channel from inflation uncertainty to hawkish policy that Cieslak et al. (2024) document for the Federal Reserve appears in Asia exactly where inflation targeting is operative, and it is absent where it is not. Trade uncertainty, in contrast, reads dovish across the emerging markets.</p></details>
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Working paper</div>
+    <div>
+      <h3>Gold&#x27;s Grip: How the Fed Broke the Link</h3>
+      <p class="coauth">with Caroline Fohlin</p>
+      <p class="note">Presented at the 2026 Mountain West Economic History Conference and the Joint 13th CEPR Economic History Symposium / 11th Banco de España Economic History Seminar</p>
+      <details><summary>Abstract</summary><p>Gold flows were the main channel of monetary transmission before the age of central banking, yet we still know little about how they moved the economy. We estimate a Bayesian structural VAR on monthly U.S. data for 1890 to 1927 and identify gold shocks with light impact sign and zero restrictions and a set of narrative restrictions across various historical episodes, both before and after the founding of the Federal Reserve, and including both gold inflows and gold outflows. We impose only the impact responses and leave the rest of the path free, and the estimated gold shock still lowers the call rate, lifts equities, and raises output and prices with a lag, so the model’s dynamics emerge without being assumed. Transmission is stronger before the founding of the Fed, and the gap is concentrated in the money market and real activity rather than in prices. When we let the dynamics differ by estimating each period on its own subsample, the effect of a gold inflow on the call money rate is about nine times larger before the founding of the Fed, with credible bands that do not overlap, while the response afterward is close to zero. The Federal Reserve appears to have broken the automatic link between outside gold movements and the domestic money market, while leaving the slower response of prices little changed.</p></details>
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Working paper</div>
+    <div>
+      <h3>Bad Tails, Bad Times</h3>
+      <p class="coauth">with Dmitry Malakhov</p>
+      <details><summary>Abstract</summary><p>A lender’s default loss is a put option on borrower revenue, so its value depends on the lower tail of the priced distribution, not on its variance. Because index options and corporate debt are priced by the same state prices, option-implied tail risk measures the terms on which lenders insure downside states, and it should matter for the real economy only when balance sheets are fragile enough that the downside state threatens default. We formalize this in a minimal model and test it on U.S. monthly data over 1996–2025, using a tail-risk factor extracted from the risk-neutral skewness and kurtosis of S&amp;P 500 options. Tail risk predicts nothing unconditionally. In recession states it contracts production on impact, predicts substantially higher future volatility of real activity, and raises inflation through financing costs, while implied variance transmits mainly as disinflationary demand weakness. Conditioning on an observable leverage index attenuates the recession interactions while sharpening their precision, confirming fragility rather than the business cycle as the true state variable. The option surface is thus a real-time, forward-looking gauge of macroeconomic vulnerability that state-averaged frameworks largely miss.</p></details>
+      <div class="links">
+        <!-- Draft is marked preliminary — "do not cite or circulate without permission".
+             When you are ready to post it publicly, uncomment:
+        <a href="/files/bad-tails-bad-times.pdf">PDF</a> -->
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="review">
+    <div class="tag live">Under review</div>
+    <div>
+      <h3>Dissecting the Intersectoral Reallocation Effects of Industry-Level Labor Productivities in the Philippines: Are the Effects in the Right Direction?</h3>
+      <p class="coauth">with Jesus Dumagan</p>
+      <details><summary>Abstract</summary><p>Productivity was an important determinant to the growth story of the Philippines over the past few decades. In particular, its growth in labor productivity and the reallocation of labor has played a crucial role in the growth of the country. To sustain the growth in labor productivity and subsequently economic growth, it is of paramount importance to determine if labor is moving in the right direction, or to sectors with higher productivity. Hence, this paper aims to determine the factors affecting labor productivity and the implications of the intersectoral reallocation effect in order to effectively communicate policy implications of the reallocation of labor in the economy. The results seem to suggest contentious flows of labor in some sectors and some years using the intersectoral reallocation effect as basis. Furthermore, a bias is seen in using traditional decompositions using incorrect shares, which may cause misleading interpretations and policy directions. In addition, labor movements from lower productivity sectors to higher productivity sectors may not always be the best course of action if the underlying motivation is increasing labor productivity growth.</p></details>
+      <div class="links">
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5227809">SSRN preprint</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="forthcoming">
+    <div class="tag">Forthcoming</div>
+    <div>
+      <h3>Term-at-Risk Estimation for the Philippines</h3>
+      <p class="coauth">Accepted, Asia Pacific Social Science Review</p>
+      <details><summary>Abstract</summary><p>Understanding the movements of the yields on key government securities and the risks associated with the downside of the distribution of the yield curve are crucial to understanding the movements of the markets influenced by short-term rates. Moreover, understanding how macrofinancial factors and domestic financial conditions can be linked to these yields is a crucial linkage which can deepen understanding on the transmissions and spillovers from the financial markets toward key economic variables. This study seeks to propose and implement a framework that quantifies the risks associated with the downside of yields and estimate a yield curve with these tail risks considered. Moreover, the framework can be used as a scenario analysis tool on seeing changes in the yield curve given changes in macrofinancial conditions in the economy.</p></details>
+      <div class="links">
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3834169">SSRN preprint</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="review">
+    <div class="tag live">Under review</div>
+    <div>
+      <h3>Revisiting the Housing Channel of Monetary Policy: A Narrative Sign Restriction Approach</h3>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Work in progress</div>
+    <div>
+      <h3>Time-Varying Financial Feedbacks</h3>
+      <p class="coauth">with Juan Rubio-Ramírez</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Work in progress</div>
+    <div>
+      <h3>Agnostic Identification in Panel VARs</h3>
+      <p class="coauth">with Kim Huynh and David Jacho-Chávez</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Work in progress</div>
+    <div>
+      <h3>The Information Component of Chinese Economic Policy</h3>
+      <p class="coauth">with Qing Peng and Chang Ma</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Work in progress</div>
+    <div>
+      <h3>The Energy Bottleneck: AI-Driven Growth and Power Constraints in Emerging Asia</h3>
+      <p class="coauth">with Juhee Kim and Jung Jae Kim</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Work in progress</div>
+    <div>
+      <h3>Uncertainty Spillovers of U.S. Monetary Policy</h3>
+      <p class="coauth">with Alessia Scudiero</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Work in progress</div>
+    <div>
+      <h3>Remittance Shocks, Insurance, and Overborrowing</h3>
+      <p class="coauth">with Jafet Baca</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Working paper</div>
+    <div>
+      <h3>Praying for Rain: A Comment on “Rainfall and the Democratic Window of Opportunity”</h3>
+      <p class="coauth">with Kim Huynh and David Jacho-Chávez</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+      <div class="links">
+        <a href="https://github.com/JustinEloriaga/Praying-for-Rain">Replication package</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Work in progress</div>
+    <div>
+      <h3>Exchange Traded Funds and Market Volatility</h3>
+      <p class="coauth">with Jung Jae Kim</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+  <article class="paper" data-status="wp">
+    <div class="tag">Working paper</div>
+    <div>
+      <h3>Measuring Sectoral “Minimum” Wages Based on Labor Productivities and Wage Shares in GDP</h3>
+      <p class="coauth">with Jesus Dumagan</p>
+      <p class="note">Presented at the Philippine Economic Society Annual Meeting, 2022</p>
+      <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
+      <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
+      -->
+    </div>
+  </article>
+
+</div>
+
+<div class="group">
+  <div class="group-label"><span>Published</span><span>Peer reviewed</span></div>
+
+  <article class="paper" data-status="published">
+    <div class="tag out">2026</div>
+    <div>
+      <h3>Are There Long-Term Consequences to China&#x27;s Deflationary Bout? The Case of ASEAN</h3>
+      <p class="coauth">with Carlos Pamittan, Vince San Juan, and Annika Subido · International Economics and Economic Policy 23(3)</p>
+      <details><summary>Abstract</summary><p>Recent deflationary episodes in China, particularly those observed in early July 2023, have prompted concerns about their potential impact on global economies. This study examines the influence of China&#x27;s deflation on select ASEAN economies. Unlike prior research that focuses on inflationary spillovers, we look at the less explored area of deflation spillovers and their effect on key macroaggregates. The findings reveal that deflationary shocks are relatively muted, with limited long-term impacts on the ASEAN-5 economies.</p></details>
+      <div class="links">
+        <a href="https://link.springer.com/article/10.1007/s10368-026-00766-z">Read article</a>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4937899">SSRN preprint</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="published">
+    <div class="tag out">2025</div>
+    <div>
+      <h3>Nationalizing the Minimum Wage: Can the Philippines Take the Toll?</h3>
+      <p class="coauth">with Marites M. Tiongco and Ceasar C. Cororaton · The Philippine Review of Economics 62(2), 16–53</p>
+      <details><summary>Abstract</summary><p>This study employs a regional wage partial computable general equilibrium model to evaluate four national minimum wage scenarios for the Philippines. Implementing the proposed ₱750 daily wage without productivity adjustments yields severe economic contraction, with real GDP declining 8.31 percent and formal sector employment falling sharply across regions. Only a moderate scenario aligning wages to NCR levels with productivity gains limits the GDP decline. The results caution against uniform wage increases without corresponding productivity growth.</p></details>
+      <div class="links">
+        <a href="https://pre.econ.upd.edu.ph/index.php/pre/article/view/1074">Read article</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="published">
+    <div class="tag out">2024</div>
+    <div>
+      <h3>Comparing “Exclusion” to “Neutralization” in Computing Core Inflation, and Testing Cointegration of Core with Headline Inflation: Results for the Philippines</h3>
+      <p class="coauth">with Jesus Dumagan · DLSU Business &amp; Economics Review 33(2), 101–119</p>
+      <details><summary>Abstract</summary><p>Core inflation removes volatile prices from headline inflation. One way for removal is “exclusion” of pre-selected items (e.g., food and energy) by setting their weights to zero, which is practiced in the Philippines and the United States, among other countries. Using Philippine Statistics Authority CPI data (January 2012–July 2021), this paper shows that core inflation by exclusion is illogical because it could be higher than headline inflation when the excluded items have positive inflations. To avoid this illogical result, this paper proposes “neutralization” by keeping the excluded items but making their CPIs constant, thus neutralizing them because they cannot contribute to inflation. This yields the logical result that core inflation is lower (higher) than the headline if the neutralized items have positive (negative) inflations.</p></details>
+      <div class="links">
+        <a href="https://animorepository.dlsu.edu.ph/ber/vol33/iss2/1/">Read article</a>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<div class="group">
+  <div class="group-label"><span>Policy &amp; central bank</span><span>BSP · AKI</span></div>
+
+  <article class="paper" data-status="published">
+    <div class="tag out">BSP DP 2024-12</div>
+    <div>
+      <h3>Beyond Correlations: A Counterfactual Analysis of BSP&#x27;s Asset Purchases Using Synthetic Control Groups</h3>
+      <p class="coauth">with Justin Fernandez</p>
+      <details><summary>Abstract</summary><p>The unprecedented nature of the COVID-19 pandemic triggered a forceful mix of monetary response from central banks all over the world. These policy tools came in the form of rate cuts, reserve requirement cuts, balance sheet expansion, regulatory forbearance, and other similar measures. Asset purchases were, in particular, a popular choice among central banks. The BSP, as with other central banks, resorted to asset purchases to help sustain ample domestic liquidity, shore up market confidence, and ensure the efficient functioning of the financial system. This study aims to determine the causal impact of the BSP&#x27;s asset purchases on key financial market variables. It was determined that such policies done by the BSP were able to lower the rate of borrowing among banks as well as increase investor confidence in the return performance of Philippine bonds. In contrast, this study finds that unconventional policies have no significant causal impact on the equities market and the FX market.</p></details>
+      <div class="links">
+        <a href="https://www.bsp.gov.ph/Pages/MediaAndResearch/PublicationsAndReports/Discussion%20Papers/DP202412.pdf">PDF</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="published">
+    <div class="tag out">BSP DP 2024-08</div>
+    <div>
+      <h3>Estimating the Impact of BSP Policy Adjustments on Bank Lending: A Panel VAR Model Approach</h3>
+      <p class="coauth">with Joan Allon-Pineda, Sarah Castañares, Jasmin Dacio, Shirra de Guia, and Maureen Rosellon</p>
+      <details><summary>Abstract</summary><p>Central banks play a crucial role in mitigating the negative impact of uncertainty and shocks caused by economic and financial crises. This paper examines the transmission of BSP monetary policy actions through the interest rate and bank lending channels using a panel vector autoregression model on a sample of 139 banks for the period Q1 2008 to Q4 2022. Specifically, this paper identifies the impact of changes in the policy rate and reserve requirement on bank lending activity while exploring the role of bank characteristics (deposits, liquid assets, asset size) as well as overall credit conditions and market sentiment in the monetary policy transmission process. Consistent with economic theory, increases in the monetary policy rate and reserve requirement were found to have a significant negative impact on bank lending activity. For the key policy rate, a one percentage point increase leads to a decrease of approximately 1.6 percent in quarter-on-quarter bank lending growth for the current quarter, with continuing impact over the next two years. For the reserve requirement, a one percentage point increase is expected to immediately reduce bank lending activity by 0.6 percent quarter-on-quarter, with the contraction lasting for about three quarters. A stronger balance sheet is seen to encourage more lending amid monetary policy tightening, although banks in the Philippines were seen to maintain their liquidity to safeguard against prevailing shocks. Finally, the observed weakness and delay in the impact of policy rate adjustments on bank lending during the COVID-19 pandemic and the recent episode of elevated inflation could be attributed to other confounding factors, such as credit risk and market sentiment.</p></details>
+      <div class="links">
+        <a href="https://www.bsp.gov.ph/Pages/MediaAndResearch/PublicationsAndReports/Discussion%20Papers/DP202408.pdf">PDF</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="paper" data-status="published">
+    <div class="tag out">AKI 2019</div>
+    <div>
+      <h3>Assessing the Potential Impacts of the Tax Reform for Acceleration and Inclusion and the Build Build Build Program</h3>
+      <p class="coauth">with Ceasar Cororaton and Marites Tiongco · DLSU-AKI Policy Brief Series XII(4), 2019(2)</p>
+      <details><summary>Abstract</summary><p>The Tax Reform for Acceleration and Inclusion (TRAIN) Act has prompted key changes in the personal income tax regime through excise taxes on most goods such as petroleum, sugar-sweetened beverages, and automobiles. The TRAIN was implemented to generate funds for the Build Build Build (BBB) program and at the same time to address income inequality and poverty. This paper aims to assess the potential growth, poverty, and distributional effects of the TRAIN Package 1 and the BBB Program using a computable general equilibrium model with poverty simulation. Results suggest that TRAIN I has prompted additional revenue in social programs and infrastructure spending. There are clear increases in the capital stock which drive economic growth, with the industry sector leading the way and the services and agricultural sectors lagging behind. With regard to the inflationary effects, the additional excise taxes increase inflation in 2018 and 2019 but decelerate after that, as higher growth would significantly dominate the inflationary effects. Results of the poverty and distributional microsimulation showed that the policy had reduced poverty and reduced income inequality very slightly.</p></details>
+      <div class="links">
+        <a href="https://animorepository.dlsu.edu.ph/res_aki/112/">Download brief</a>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<p class="empty" id="emptyMsg">No papers with that status.</p>
+```

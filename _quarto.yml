@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "files/"
+    - "CNAME"
+    - ".nojekyll"
+
+website:
+  title: "Justin Eloriaga"
+  site-url: "https://justineloriaga.com"
+  description: "Economist at the IMF Shanghai Center. Bayesian time-series econometrics and monetary economics."
+  favicon: img/portrait.jpg
+  navbar:
+    pinned: true
+    left:
+      - href: research/index.qmd
+        text: Research
+      - text: Teaching
+        menu:
+          - href: lecture-materials/index.qmd
+            text: Lecture materials
+          - href: teaching-playlists/index.qmd
+            text: Teaching playlists
+      - href: cv-and-short-bio/index.qmd
+        text: CV
+  page-footer:
+    left: |
+      <p class="disclaimer">The views and opinions expressed on this site are those of the
+      author and do not necessarily reflect the views of the International Monetary Fund,
+      its Executive Board, or IMF Management.</p>
+    right:
+      - text: GitHub
+        href: https://github.com/JustinEloriaga
+      - text: YouTube
+        href: https://www.youtube.com/@JustinEloriaga
+      - text: X
+        href: https://x.com/justineloriaga
+      - text: LinkedIn
+        href: https://ph.linkedin.com/in/justin-eloriaga-989b553b
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: false
+    anchor-sections: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">

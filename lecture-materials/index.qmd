@@ -1,0 +1,85 @@
+---
+title: "Lecture materials"
+page-layout: article
+---
+
+<p class="mono eyebrow">02 — Teaching</p>
+
+# Lecture materials
+
+<p class="lede">Slides, problem sets, lab notebooks, and replication code. Everything lives
+in a public GitHub repository — clone it, fork it, or just read the notebooks in the browser.</p>
+
+```{=html}
+<p class="mono eyebrow" style="margin-top:42px">Course labs</p>
+<div class="cards">
+
+  <div class="card-j">
+    <h3>QTM 100 — Introduction to Statistical Inference</h3>
+    <p class="where">Emory University · R</p>
+    <p>Slides and R code for an introductory course in statistical inference.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/QTM-100-Lab-Materials">Repository</a></div>
+  </div>
+
+  <div class="card-j">
+    <h3>DATASCI 100 — Data Science Lab</h3>
+    <p class="where">Emory University · R</p>
+    <p>Lab materials for the introductory data science sequence.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/DATASCI-100-Lab">Repository</a></div>
+  </div>
+
+  <div class="card-j">
+    <h3>ECON 220 — Lab</h3>
+    <p class="where">Emory University · Jupyter</p>
+    <p>Lab notebooks for ECON 220.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/ECON-220-Lab">Repository</a></div>
+  </div>
+
+  <div class="card-j">
+    <h3>ECON 521 — Econometrics of Policy Analysis and Causal Inference</h3>
+    <p class="where">Emory University · Jupyter</p>
+    <p>Lab materials on program evaluation and causal inference methods.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/ECON-521-Econometrics-of-Policy-Analysis-and-Causal-Inference-Lab">Repository</a></div>
+  </div>
+
+  <div class="card-j">
+    <h3>ECON 522 — Forecasting</h3>
+    <p class="where">Emory University · Jupyter</p>
+    <p>Lab component for the forecasting course.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/ECON522Lab">Repository</a></div>
+  </div>
+
+  <div class="card-j">
+    <h3>ECON 722 — Time Series Econometrics</h3>
+    <p class="where">Emory University · Jupyter</p>
+    <p>Materials for Elena Pesavento&#x27;s graduate time-series course.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/Time-Series-Econometrics-ECON-722-">Repository</a></div>
+  </div>
+
+</div>
+
+<p class="mono eyebrow" style="margin-top:52px">Methods and code</p>
+<div class="cards">
+
+  <div class="card-j">
+    <h3>Vector Autoregression in R</h3>
+    <p class="where">R</p>
+    <p>Building a simple VAR: specification, lag selection, diagnostics, impulse
+    responses, FEVDs, and forecasting.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/Vector-Autoregression-in-R">Repository</a></div>
+  </div>
+
+  <div class="card-j">
+    <h3>Structural VAR in R</h3>
+    <p class="where">R</p>
+    <p>Identification in SVARs — recursive orderings, sign restrictions, and
+    structural impulse responses.</p>
+    <div class="links"><a href="https://github.com/JustinEloriaga/Structural-Vector-Autoregression-in-R">Repository</a></div>
+  </div>
+
+</div>
+
+<div class="allrepos">
+  <a class="btn-j" href="https://github.com/JustinEloriaga?tab=repositories">All repositories on GitHub</a>
+</div>
+```

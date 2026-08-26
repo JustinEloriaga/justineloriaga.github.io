@@ -1,0 +1,689 @@
+---
+title: "Teaching playlists"
+page-layout: article
+include-after-body:
+  text: |
+    <script src="/js/playlists.js"></script>
+---
+
+<p class="mono eyebrow">02 — Teaching</p>
+
+# Teaching playlists
+
+<p class="lede">257 lecture videos — about 50 hours — across 26 playlists, from
+introductory micro and macro through mathematical economics to applied time series.
+Search by topic, by playlist, or by the title of a single video.</p>
+
+```{=html}
+<div class="pl-search">
+  <input type="search" id="plq" placeholder="Search 257 videos — try &ldquo;cointegration&rdquo;, &ldquo;Cournot&rdquo;, &ldquo;Solow&rdquo;" autocomplete="off" aria-label="Search playlists and videos">
+  <p class="pl-count" id="plcount"></p>
+</div>
+
+<div class="filters" role="group" aria-label="Filter playlists by topic">
+  <button class="chip" data-topic="all" aria-pressed="true">All</button>
+  <button class="chip" data-topic="Econometrics &amp; time series" aria-pressed="false">Econometrics &amp; time series</button>
+  <button class="chip" data-topic="Software &amp; computation" aria-pressed="false">Software &amp; computation</button>
+  <button class="chip" data-topic="Macroeconomics" aria-pressed="false">Macroeconomics</button>
+  <button class="chip" data-topic="Microeconomics" aria-pressed="false">Microeconomics</button>
+  <button class="chip" data-topic="Mathematical economics" aria-pressed="false">Mathematical economics</button>
+  <button class="chip" data-topic="Financial economics" aria-pressed="false">Financial economics</button>
+  <button class="chip" data-topic="Statistics" aria-pressed="false">Statistics</button>
+</div>
+
+<div class="pl-list" id="pllist">
+  <article class="pl" data-topic="Econometrics &amp; time series">
+    <div class="pl-head">
+      <div>
+        <h3>Applied Time Series</h3>
+        <p class="pl-meta"><span class="pl-topic">Econometrics &amp; time series</span> · 38 videos · 7h 4m</p>
+        <p class="pl-blurb">The full time-series sequence — stationarity, ARIMA, VARs, cointegration, and forecasting.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>38 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=RJzmHkGWCxs&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Introduction to Time Series Data and Stationarity</span><span class="vd">12:12</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=aggBVXM4fL8&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Stochastic Process vs Time Series</span><span class="vd">8:03</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=sqZtT6o6B6U&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Weak Stationarity vs Strong Stationarity</span><span class="vd">7:34</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=3lGdpYQi_nQ&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Non-Stationarity and Differencing</span><span class="vd">14:35</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=g5-A8r6WF5I&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">On Autocovariances and Weak Stationarity</span><span class="vd">6:35</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=RpdbO1W-Avs&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">White Noise Process</span><span class="vd">6:04</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=3MQHVETDLx0&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Autocorrelation Coefficient</span><span class="vd">7:14</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=CEZjWYCfd8E&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Introduction to the Moving Average Model</span><span class="vd">5:13</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=FsG4ya2x3_s&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Properties of a Moving Average Model</span><span class="vd">10:42</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=asVnB6imZEI&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Naive Forecasting Using a Moving Average Model</span><span class="vd">16:49</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=0rmPxzc6-Zk&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Introduction to the Autoregressive Model</span><span class="vd">3:23</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=4PdqvpDDdV0&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">The Stationarity Condition and the Characteristic Equation</span><span class="vd">11:30</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=qcF4VyZq8Xs&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Naive Forecasting using the Autoregressive Model</span><span class="vd">14:03</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=2_aed9ZLnHI&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Identification of a Time Series using the ACF and PACF</span><span class="vd">5:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=c6tIuThj5ZA&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Unit Roots and Tests for Non-Stationarity</span><span class="vd">17:28</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=4784Ait88G8&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Forecasting Bitcoin Prices using Prophet in R</span><span class="vd">6:43</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=OiRflXLwjHc&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Comparing the ACF and PACF of an AR, MA, and ARMA Process in R</span><span class="vd">8:51</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Jgg3fQ_9NDg&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Akaike, Schwarz&#x27;s Bayesian, and Hannan-Quinn Information Criterion</span><span class="vd">8:12</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=IiZ_SNBlZhw&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Loading, Graphing, and Decomposing a Time Series in R</span><span class="vd">10:11</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=iIYZn2eCKdo&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Testing for Non-Stationarity in R</span><span class="vd">7:46</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=dXWy5nleaSg&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Auto ARIMA in R</span><span class="vd">13:07</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=JujzVxxTxX0&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">In-sample Forecasting and Diagnostics in R</span><span class="vd">15:38</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=4upPIMvi0Lk&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Out of Sample Forecasting in R</span><span class="vd">4:22</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=z-rI2frzMeM&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Wold&#x27;s Decomposition Representation</span><span class="vd">7:57</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=UYRFYWNxX4c&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Building a VAR Model in R</span><span class="vd">15:40</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=qyGlB4cqZ9Q&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">VAR Diagnostics in R</span><span class="vd">5:39</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=aX8IANxjucA&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Granger Causality, Impulse Response, Variance Decomposition, and Forecasting in VAR using R</span><span class="vd">13:36</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=hwB2TbhqgH0&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Structural Vector Autoregression in R</span><span class="vd">18:23</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=VjMLj7crVkw&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Johansen Cointegration Test in R</span><span class="vd">11:04</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=H9UrQScYk6o&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Forecasting Coronavirus Cases using Prophet in R</span><span class="vd">10:08</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=H64ucBjgY6w&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Causal Impact Analysis in Time Series using R</span><span class="vd">11:48</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ZF6Ew9L7N_8&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Building a Vector Error Correction Model in R</span><span class="vd">15:22</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=zS0jvezhwZQ&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Graphically Comparing Forecasts in R</span><span class="vd">10:32</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=qoihlzu7CcM&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Building an ARDL Model in R</span><span class="vd">8:03</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=pk9lho3So-E&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Panel VAR in R</span><span class="vd">11:59</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=2Vtrrno-ChQ&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Error Corrections Explained</span><span class="vd">14:39</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=e6CgA1TuZiA&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Introduction to the Vector Error Correction Model</span><span class="vd">12:33</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=cIG8l3cADz0&list=PLEuzmtv9IuT_vg5oE0lQyZR-wgbVeGztt" target="_blank" rel="noopener"><span class="vt">Introduction to the Structural Vector Autoregression (SVAR)</span><span class="vd">36:00</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Econometrics &amp; time series">
+    <div class="pl-head">
+      <div>
+        <h3>Applied Econometrics</h3>
+        <p class="pl-meta"><span class="pl-topic">Econometrics &amp; time series</span> · 21 videos · 4h 5m</p>
+        <p class="pl-blurb">Regression, inference, and the standard applied econometrics toolkit.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>21 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=VDNsqb6oJAQ&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Introduction to Applied Econometrics</span><span class="vd">20:33</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=BN-FTZ7qvN0&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Types of Datasets and Variables in Econometrics</span><span class="vd">11:35</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=iMrWMMUFSdM&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Deriving the Betas in a Bivariate CLRM</span><span class="vd">14:30</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=9Z9Ozkr3MvM&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Bivariate Regression in R</span><span class="vd">11:38</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=fXUXMMYEHpc&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">The Wald&#x27;s Test of Linear Restrictions</span><span class="vd">10:28</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=9DhexHduEGA&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Definition and Degrees of Multicollinearity</span><span class="vd">9:40</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=L6QZOsSu1FM&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Auxiliary Regressions for Multicollinearity using STATA</span><span class="vd">8:23</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Io-QwwFImUo&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Consequences of Multicollinearity</span><span class="vd">7:48</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=AGBdDCbEBuU&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Variance Inflating Factor and Tolerance</span><span class="vd">8:18</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=2HQxVmrX57M&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Testing for Multicollinearity in R</span><span class="vd">5:29</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=b02s2DdRvzM&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Panel Data Models (Pooled OLS, FE, RE, LSDVs) in STATA</span><span class="vd">13:39</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=cm29i-n53SM&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Quantile Regression in R</span><span class="vd">12:31</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=3sC1oMBj_sE&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Unbiasedness of the Instrumental Variable Estimator</span><span class="vd">11:00</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=T-mhKVfaLt4&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Proof: Trace of Annihilator Matrix</span><span class="vd">2:32</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=JQRoRNz3cvE&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Proof: Ridge Regression Estimator is Consistent</span><span class="vd">5:32</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=oWe9nx5thUs&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Proof: Asymptotic Variance of GMM</span><span class="vd">13:14</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=YZBIV_yhHAs&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Introduction to Logit and Probit</span><span class="vd">20:23</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=rrxNQ6luxLw&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Introduction to Panel Data Models</span><span class="vd">16:53</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=BYaJRX0Q688&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">First Differences Panel Data Model</span><span class="vd">7:00</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=v57WozC3wiE&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Fixed Effects and LSDVs</span><span class="vd">19:50</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Jtm-hGVCujU&list=PLEuzmtv9IuT9ot5UyUDakYM-EVsq_Ngq6" target="_blank" rel="noopener"><span class="vt">Random Effects Model</span><span class="vd">14:32</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Software &amp; computation">
+    <div class="pl-head">
+      <div>
+        <h3>VAR in R</h3>
+        <p class="pl-meta"><span class="pl-topic">Software &amp; computation</span> · 5 videos · 1h 5m</p>
+        <p class="pl-blurb">Estimating and interpreting VARs in R.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT88IrQDHqz100twn85HxWfV" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>5 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=UYRFYWNxX4c&list=PLEuzmtv9IuT88IrQDHqz100twn85HxWfV" target="_blank" rel="noopener"><span class="vt">Building a VAR Model in R</span><span class="vd">15:40</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=qyGlB4cqZ9Q&list=PLEuzmtv9IuT88IrQDHqz100twn85HxWfV" target="_blank" rel="noopener"><span class="vt">VAR Diagnostics in R</span><span class="vd">5:39</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=aX8IANxjucA&list=PLEuzmtv9IuT88IrQDHqz100twn85HxWfV" target="_blank" rel="noopener"><span class="vt">Granger Causality, Impulse Response, Variance Decomposition, and Forecasting in VAR using R</span><span class="vd">13:36</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=hwB2TbhqgH0&list=PLEuzmtv9IuT88IrQDHqz100twn85HxWfV" target="_blank" rel="noopener"><span class="vt">Structural Vector Autoregression in R</span><span class="vd">18:23</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=pk9lho3So-E&list=PLEuzmtv9IuT88IrQDHqz100twn85HxWfV" target="_blank" rel="noopener"><span class="vt">Panel VAR in R</span><span class="vd">11:59</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Software &amp; computation">
+    <div class="pl-head">
+      <div>
+        <h3>Univariate Forecasting in R</h3>
+        <p class="pl-meta"><span class="pl-topic">Software &amp; computation</span> · 4 videos · 37m</p>
+        <p class="pl-blurb">Hands-on univariate forecasting with R.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT9Q9MPA2vBH0JGAY3wxzZVM" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>4 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=IiZ_SNBlZhw&list=PLEuzmtv9IuT9Q9MPA2vBH0JGAY3wxzZVM" target="_blank" rel="noopener"><span class="vt">Loading, Graphing, and Decomposing a Time Series in R</span><span class="vd">10:11</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=iIYZn2eCKdo&list=PLEuzmtv9IuT9Q9MPA2vBH0JGAY3wxzZVM" target="_blank" rel="noopener"><span class="vt">Testing for Non-Stationarity in R</span><span class="vd">7:46</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=JujzVxxTxX0&list=PLEuzmtv9IuT9Q9MPA2vBH0JGAY3wxzZVM" target="_blank" rel="noopener"><span class="vt">In-sample Forecasting and Diagnostics in R</span><span class="vd">15:38</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=4upPIMvi0Lk&list=PLEuzmtv9IuT9Q9MPA2vBH0JGAY3wxzZVM" target="_blank" rel="noopener"><span class="vt">Out of Sample Forecasting in R</span><span class="vd">4:22</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Software &amp; computation">
+    <div class="pl-head">
+      <div>
+        <h3>VAR in Matlab</h3>
+        <p class="pl-meta"><span class="pl-topic">Software &amp; computation</span> · 2 videos · 22m</p>
+        <p class="pl-blurb">Estimating vector autoregressions in MATLAB.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT9akbAjVytZQ3S2LrvnqeUN" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>2 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=_3dcxJyVVJo&list=PLEuzmtv9IuT9akbAjVytZQ3S2LrvnqeUN" target="_blank" rel="noopener"><span class="vt">VAR in MATLAB  (Part 1): Loading, Plotting, and Differencing Data</span><span class="vd">10:41</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=xQH5frLhEFg&list=PLEuzmtv9IuT9akbAjVytZQ3S2LrvnqeUN" target="_blank" rel="noopener"><span class="vt">VAR in MATLAB (Part 2): Building the VAR Model</span><span class="vd">11:43</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Macroeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Intermediate Macroeconomics</h3>
+        <p class="pl-meta"><span class="pl-topic">Macroeconomics</span> · 15 videos · 3h 6m</p>
+        <p class="pl-blurb">A full intermediate macro course.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>15 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=eGLwHvyoHcM&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Example on the Consumption-Leisure Choice Model</span><span class="vd">12:13</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=_XMfT7HjDFE&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Example on the Consumption-Leisure Choice Model</span><span class="vd">11:10</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=k2yevzBCwRw&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Example of a Two-Period Model of Consumption and Savings (Part 1)</span><span class="vd">11:05</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Nfyk21H80co&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Example of a Two-Period Model of Consumption and Savings (Part 2)</span><span class="vd">9:42</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=fYlHVqd9FeM&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Example of a Multi-Period Model of Consumption and Savings</span><span class="vd">11:47</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=HblGf4gPOus&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Consumption Savings Model with Credit Constraint (Part 1)</span><span class="vd">13:35</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=4jlM9kxLpi4&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Consumption Savings Model with Credit Constraint (Part 2)</span><span class="vd">7:53</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=nCemkpaNd48&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Firms in the Two Period Framework</span><span class="vd">12:44</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=1yv1FqvZYPA&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Two Period Consumption Savings Model with a Government Sector</span><span class="vd">20:19</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=qGCJZzz5oZA&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Deriving the Real Money Demand Function</span><span class="vd">8:57</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Apo_Awy3DDM&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Money in Utility Model Example</span><span class="vd">8:16</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=8aJV5SSIN9A&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Solow Growth Model (Part1) Introduction and Production</span><span class="vd">11:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=NdXkm8lw9xA&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Solow Growth Model (Part 2) Properties of the Production Function</span><span class="vd">11:14</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=0OZHD_0_4QU&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Heterogenous Agents Consumption/Savings Model</span><span class="vd">18:05</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=g7Ge93RBJDA&list=PLEuzmtv9IuT9Q1PL_Or9MtFRLxSmNHP6p" target="_blank" rel="noopener"><span class="vt">Heterogenous Agents Consumption Savings Model</span><span class="vd">18:05</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Macroeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Macroeconomics</h3>
+        <p class="pl-meta"><span class="pl-topic">Macroeconomics</span> · 4 videos · 1h 6m</p>
+        <p class="pl-blurb">Assorted macroeconomic topics.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT_nRwvKcqdTGBXxMMnsaTR_" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>4 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=Vrb-RPVxWXQ&list=PLEuzmtv9IuT_nRwvKcqdTGBXxMMnsaTR_" target="_blank" rel="noopener"><span class="vt">Solving the Steady State Values in the Solow Model</span><span class="vd">23:16</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=j327CNMEYt4&list=PLEuzmtv9IuT_nRwvKcqdTGBXxMMnsaTR_" target="_blank" rel="noopener"><span class="vt">RCK Growth Model with a Specific Functional Form</span><span class="vd">8:52</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=xP5Pz3MXheg&list=PLEuzmtv9IuT_nRwvKcqdTGBXxMMnsaTR_" target="_blank" rel="noopener"><span class="vt">Ramsey-Cass-Koopmans Growth Model with Labor and Leisure</span><span class="vd">22:36</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=cI921sO9Gik&list=PLEuzmtv9IuT_nRwvKcqdTGBXxMMnsaTR_" target="_blank" rel="noopener"><span class="vt">Dynamic Programming using the Brock and Mirman (1972) Example</span><span class="vd">11:43</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Macroeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Model of Consumption and Savings</h3>
+        <p class="pl-meta"><span class="pl-topic">Macroeconomics</span> · 3 videos · 32m</p>
+        <p class="pl-blurb">Intertemporal choice and the consumption-savings problem.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT9IZMe6hCQLzQllizhSljo5" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>3 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=k2yevzBCwRw&list=PLEuzmtv9IuT9IZMe6hCQLzQllizhSljo5" target="_blank" rel="noopener"><span class="vt">Example of a Two-Period Model of Consumption and Savings (Part 1)</span><span class="vd">11:05</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Nfyk21H80co&list=PLEuzmtv9IuT9IZMe6hCQLzQllizhSljo5" target="_blank" rel="noopener"><span class="vt">Example of a Two-Period Model of Consumption and Savings (Part 2)</span><span class="vd">9:42</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=fYlHVqd9FeM&list=PLEuzmtv9IuT9IZMe6hCQLzQllizhSljo5" target="_blank" rel="noopener"><span class="vt">Example of a Multi-Period Model of Consumption and Savings</span><span class="vd">11:47</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Macroeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Macroeconomics: New Keynesian DSGE</h3>
+        <p class="pl-meta"><span class="pl-topic">Macroeconomics</span> · 2 videos · 14m</p>
+        <p class="pl-blurb">Setting up and reading a New Keynesian DSGE model.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT_3lUZ7tUN2GTNCeO1Zjyqa" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>2 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=HvJCpHNHqLQ&list=PLEuzmtv9IuT_3lUZ7tUN2GTNCeO1Zjyqa" target="_blank" rel="noopener"><span class="vt">Solving a Simple New Keynesian DSGE Model</span><span class="vd">9:32</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Iqac1-v1mew&list=PLEuzmtv9IuT_3lUZ7tUN2GTNCeO1Zjyqa" target="_blank" rel="noopener"><span class="vt">Deriving the Labor Supply Equation in a NK DSGE Model</span><span class="vd">5:06</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Macroeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Macroeconomics: Real Business Cycle</h3>
+        <p class="pl-meta"><span class="pl-topic">Macroeconomics</span> · 2 videos · 10m</p>
+        <p class="pl-blurb">The RBC model from first principles.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-z_Ywq8EM2lo-BjwSmIhFZ" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>2 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=_qm42sgfyuo&list=PLEuzmtv9IuT-z_Ywq8EM2lo-BjwSmIhFZ" target="_blank" rel="noopener"><span class="vt">Log Linearization in an RBC Model</span><span class="vd">4:15</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=6H_gxqkk3yY&list=PLEuzmtv9IuT-z_Ywq8EM2lo-BjwSmIhFZ" target="_blank" rel="noopener"><span class="vt">Deriving the Log Linearized Labor Supply Equation</span><span class="vd">6:05</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Macroeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Solow Growth Model (Intermediate Macroeconomics)</h3>
+        <p class="pl-meta"><span class="pl-topic">Macroeconomics</span> · 2 videos · 22m</p>
+        <p class="pl-blurb">Capital accumulation and convergence in the Solow model.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-_G2RVfB8xve6fADaO6Z-B" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>2 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=8aJV5SSIN9A&list=PLEuzmtv9IuT-_G2RVfB8xve6fADaO6Z-B" target="_blank" rel="noopener"><span class="vt">Solow Growth Model (Part1) Introduction and Production</span><span class="vd">11:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=NdXkm8lw9xA&list=PLEuzmtv9IuT-_G2RVfB8xve6fADaO6Z-B" target="_blank" rel="noopener"><span class="vt">Solow Growth Model (Part 2) Properties of the Production Function</span><span class="vd">11:14</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Microeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Microeconomics: Theory of the Firm</h3>
+        <p class="pl-meta"><span class="pl-topic">Microeconomics</span> · 18 videos · 2h 43m</p>
+        <p class="pl-blurb">Production, cost, and the firm&#x27;s supply decision.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>18 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=Fob0Mpqh6qk&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Introduction to the Theory of the Firm</span><span class="vd">13:32</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=OoVx90eG63c&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Short Run Production Function</span><span class="vd">8:14</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=5TnDprJ5fKI&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Linking Marginal Product and Average Product</span><span class="vd">8:57</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Owl08pZRKlw&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Isoquants</span><span class="vd">7:38</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=gKmOfWGBTDM&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Marginal Rate of Technical Substitution</span><span class="vd">6:44</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=dnLFZFuntFA&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Returns to Scale</span><span class="vd">12:49</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=DlEtXCcXrmI&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Elasticity of Substitution in Production</span><span class="vd">7:11</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=wQIVkcnwTd4&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Long Run Production Example</span><span class="vd">13:11</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=B1W4QbC_h7Q&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Introduction to Costs in Economics</span><span class="vd">9:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=da_LIsp41bE&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Cost Minimization Process (Part 1)</span><span class="vd">10:54</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=vo7-D5KPjxY&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Cost Minimization Process (Part 2)</span><span class="vd">14:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=J1KxBPva6YM&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Cost Minimization Example</span><span class="vd">6:04</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=DTr5bxtV6gk&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Introduction to Cost Functions</span><span class="vd">3:25</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=o26Aw-zHCGk&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Graphical Analysis of Cost Curves</span><span class="vd">11:26</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=UQAX2o0-uQc&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Cost Functions under Variable Returns</span><span class="vd">5:18</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=TlQjdsZyimw&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Short Run Costs</span><span class="vd">7:22</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=1CZfKPIhdcU&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Linking Long Run and Short Run Costs</span><span class="vd">8:39</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=s1dqrEp8nO8&list=PLEuzmtv9IuT8c_Z2Z1kg_iQmOD6tljwKl" target="_blank" rel="noopener"><span class="vt">Long Run and Short Run Cost Example</span><span class="vd">8:13</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Microeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Microeconomics: Oligopoly</h3>
+        <p class="pl-meta"><span class="pl-topic">Microeconomics</span> · 13 videos · 3h 2m</p>
+        <p class="pl-blurb">Cournot, Bertrand, Stackelberg, and strategic interaction.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>13 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=J28HeTfU3xo&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Introduction to Oligopoly</span><span class="vd">7:07</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=uTMFKs59bT8&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Cournot Oligopoly Model and Equilibrium</span><span class="vd">20:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=P8ww5-fUpJ0&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Example of Cournot Oligopoly using Calculus</span><span class="vd">10:42</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Ru-N3iatJmU&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Bertrand Oligopoly and Equilibrium</span><span class="vd">18:20</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=SaYS2NLIeCQ&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Example of Bertrand Oligopoly using Calculus</span><span class="vd">5:30</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=A9s3oBQWMvw&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Introduction to the Stackelberg Oligopoly</span><span class="vd">12:38</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=gn6XcOVA36g&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Example of Stackelberg Oligopoly using Calculus</span><span class="vd">9:43</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=bFEDUq0-QHY&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Cournot Oligopoly with Differentiated Products</span><span class="vd">13:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=RGMKVFWLQEU&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Bertrand Oligopoly with Differentiated Products</span><span class="vd">14:28</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=La8aIpY0gdw&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Introduction to Cartels</span><span class="vd">16:44</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=m2IOb_9Pf2o&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Example of a Cartel using Calculus</span><span class="vd">9:56</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=sV6Eqa-f-vQ&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Low Cost Price Leadership Oligopoly Model</span><span class="vd">20:04</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=YMn-UKQYxlU&list=PLEuzmtv9IuT92vw-PC5qc5sAIwSJ0-zsG" target="_blank" rel="noopener"><span class="vt">Dominant Firm Price Leadership Oligopoly Model</span><span class="vd">23:11</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Microeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Microeconomics: Perfect Competition</h3>
+        <p class="pl-meta"><span class="pl-topic">Microeconomics</span> · 13 videos · 1h 48m</p>
+        <p class="pl-blurb">The competitive firm and market in the short and long run.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>13 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=3KIGxQToiCY&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Introduction to Perfect Competition</span><span class="vd">17:02</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=N-htV0z9zeg&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Market Demand Function</span><span class="vd">4:28</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=y9TNDNaqbc4&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Firm&#x27;s Demand Curve Under Perfect Competition</span><span class="vd">4:16</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=rAfMh2huXYM&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Firm&#x27;s Short Run Supply Function</span><span class="vd">6:28</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=jCNGOyMiHsg&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Profitability Criterion under Perfect Competition</span><span class="vd">10:04</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=9Gtvf2FwqoY&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Market Supply Function</span><span class="vd">4:51</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=2TZS_dzWJoI&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Short Run Firm and Market Supply Functions Example</span><span class="vd">8:03</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=6pK7Kp0cXmE&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Short Run Market Equilibrium</span><span class="vd">5:59</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=AGdMYt83DR4&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Long Run Supply</span><span class="vd">9:13</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ufeod8cfpVE&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Deriving the Long Run Market Supply Under a Constant Cost Industry</span><span class="vd">11:28</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Rh9mbPQhJGc&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Short Run Competitive Equilibrium Example</span><span class="vd">11:04</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=gMrg2Ev2rxg&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Long Run Competitive Equilibrium Example Part 1</span><span class="vd">9:42</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=8G-BZGABmz8&list=PLEuzmtv9IuT-QSL3W0fqFxlT4fvRI-pVP" target="_blank" rel="noopener"><span class="vt">Long Run Competitive Equilibrium Example Part 2</span><span class="vd">5:43</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Microeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Microeconomics: Price Discrimination</h3>
+        <p class="pl-meta"><span class="pl-topic">Microeconomics</span> · 11 videos · 2h 23m</p>
+        <p class="pl-blurb">First, second, and third-degree price discrimination.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>11 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=8_WMnNsQZPI&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Introduction to Price Discrimination</span><span class="vd">9:42</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Vb7ifLO-blg&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">First Degree Price Discrimination</span><span class="vd">17:07</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=bZ1JQ6X6q7Y&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Example of First Degree Price Discrimination using Calculus</span><span class="vd">7:31</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=p6m_sfWqU8Q&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Introduction to Second Degree Price Discrimination and Two Part Tariffs</span><span class="vd">9:44</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=uhTAeOw_qIU&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Two Part Tariffs under Identical Consumers Case</span><span class="vd">13:13</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=pJU-tZ66DAE&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Two Part Tariffs under Non-identical Consumers Case</span><span class="vd">16:20</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=kinJ7Ek2dhc&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Block Pricing (Second Degree Price Discrimination)</span><span class="vd">14:54</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=hdypzl6aU7c&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Block Pricing Example using Calculus</span><span class="vd">11:37</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=OsLcfOgZqE0&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Introduction to Third Degree Price Discrimination</span><span class="vd">17:12</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=BDUoWUIZpSI&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Illustrating Third Degree Price Discrimination</span><span class="vd">8:37</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=9tbeDXTiXmg&list=PLEuzmtv9IuT-WFJILCeBCF-DVqZB1tkDD" target="_blank" rel="noopener"><span class="vt">Example of Third Degree Price Discrimination using Calculus</span><span class="vd">18:00</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Microeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Microeconomics: Monopoly</h3>
+        <p class="pl-meta"><span class="pl-topic">Microeconomics</span> · 9 videos · 1h 26m</p>
+        <p class="pl-blurb">Pricing and welfare under a single seller.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>9 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=OdlU88AKX5I&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Introduction to Monopoly</span><span class="vd">15:18</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=9PPcGEltqmM&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Profit Maximization Conditions of a Monopolist</span><span class="vd">8:57</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ACDq9_bYXDM&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Illustrating a Monopolist</span><span class="vd">5:57</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=tvN45JEMpjo&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Output Choice, Marginal Revenue, and Price Elasticity of a Monopolist</span><span class="vd">9:07</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=XEQXrFFAO8Y&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Lerner Index of Monopoly Power</span><span class="vd">6:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=NbMHViVqYKI&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Welfare Comparison of Monopoly and Perfect Competition</span><span class="vd">17:18</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=JG7E298nPk8&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Example of a Monopoly using Calculus (Part 1)</span><span class="vd">7:50</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=bL91qIRVdT4&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Example of a Monopoly using Calculus (Part 2)</span><span class="vd">5:41</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=B-wBZpurODk&list=PLEuzmtv9IuT9LBZGowAZkljf6hWjv-Dy5" target="_blank" rel="noopener"><span class="vt">Natural Monopoly</span><span class="vd">9:52</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Microeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Microeconomics: Theory of the Consumer</h3>
+        <p class="pl-meta"><span class="pl-topic">Microeconomics</span> · 9 videos · 1h 18m</p>
+        <p class="pl-blurb">Demand, substitution and income effects, and welfare.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>9 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=Q8CBmFkzE7s&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Introduction to the  Utility Maximization Process</span><span class="vd">14:42</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=2N4XLCzZHwo&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Marginal Utility, Law of Diminishing Marginal Utility, and the Marginal Rate of Substitution</span><span class="vd">14:21</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=IKLhabiI41w&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Deriving the Marshallian Demand Functions</span><span class="vd">12:54</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=x6Dm1esoLo8&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Properties of Marshallian Demand Functions</span><span class="vd">10:05</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=AbUWQWE_1js&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Deriving the Indirect Utility Function</span><span class="vd">3:27</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=hD2cWW2TAqM&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Roy&#x27;s Identity</span><span class="vd">5:26</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=T7N_efrToSI&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Duality between Utility Maximization and Expenditure Minimization</span><span class="vd">8:26</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=d0j5Nwm2_J0&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Deriving the Expenditure Function</span><span class="vd">4:25</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=5DPymgdZino&list=PLEuzmtv9IuT8bG9iWjNBW-UK2fi_2Wd2c" target="_blank" rel="noopener"><span class="vt">Hicksian Demand Functions and Shephard&#x27;s Lemma</span><span class="vd">4:31</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Microeconomics">
+    <div class="pl-head">
+      <div>
+        <h3>Microeconomics - Basics of the Theory of Consumer Behavior</h3>
+        <p class="pl-meta"><span class="pl-topic">Microeconomics</span> · 7 videos · 1h 31m</p>
+        <p class="pl-blurb">Preferences, utility, and the budget constraint.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>7 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=iUU2iPaH4Zc&list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener"><span class="vt">Introduction to the Theory of Consumer Behavior</span><span class="vd">7:40</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=SebLaPtVtgs&list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener"><span class="vt">Axioms of Consumer Preferences</span><span class="vd">10:06</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=x28y1clwbys&list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener"><span class="vt">Foundations of the Utility Function</span><span class="vd">17:20</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=MU9AfHGhDis&list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener"><span class="vt">Mathematically Deriving Properties of the Utility Function</span><span class="vd">10:08</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=clDnF5pWhiM&list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener"><span class="vt">Deep Dive on Indifference Curves</span><span class="vd">23:37</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=aTjAsnsNGXo&list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener"><span class="vt">Homothetic Preferences and Special Indifference Curves</span><span class="vd">7:30</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=BFFmW3LY8L8&list=PLEuzmtv9IuT-QdfAge35uTqH9cSChx3I7" target="_blank" rel="noopener"><span class="vt">Solving for the Walrasian Equilibrium Allocations</span><span class="vd">14:39</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Mathematical economics">
+    <div class="pl-head">
+      <div>
+        <h3>Mathematical Economics</h3>
+        <p class="pl-meta"><span class="pl-topic">Mathematical economics</span> · 21 videos · 3h 2m</p>
+        <p class="pl-blurb">The core mathematical toolkit for economists.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>21 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=eyQi9Y9U9H8&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Returns to Scale of a Production Function</span><span class="vd">15:11</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=qavgOkx23vQ&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Iterated Integration</span><span class="vd">5:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=y5QIgVE7_m4&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Order, Degree, and Linearity of an Ordinary Differential Equation</span><span class="vd">7:37</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=t6cwb_7r7M0&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Solutions of an Ordinary Differential Equation</span><span class="vd">4:57</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=r8mUVDOX_7U&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Integration by Substitution</span><span class="vd">8:08</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Mc9SZQWADGU&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">The Differential in Economics</span><span class="vd">9:26</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=gxVRCEwibRM&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Economic Applications of Partial Differentiation</span><span class="vd">12:12</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=U1xhBu3t5bo&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Integration by Parts (Indefinite Integral)</span><span class="vd">10:53</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=jXSSyoes4A0&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Economic Applications of Total Differentials</span><span class="vd">9:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=VNl6ILbYkZw&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">First Order and Second Order Taylor Approximation</span><span class="vd">12:20</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ayJdAiLcl8c&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Fermat&#x27;s Theorem</span><span class="vd">6:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=XysWA8NzinY&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">First Derivative Test</span><span class="vd">10:14</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=wC53r_Uw3Mo&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Proof: Angle Between Two Vectors</span><span class="vd">12:11</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=9LZieaSIW3Y&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Proof: Contraction Mapping is Uniformly Continuous</span><span class="vd">5:11</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=flFaXoejmUc&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Proof: Contraction Mapping has a Unique Fixed Point</span><span class="vd">6:28</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=fxZSy8NLmFI&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Solving a Simple Finite Horizon Dynamic Programming Problem</span><span class="vd">12:05</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=NKTgbOgx9ew&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Proof: Lipschitz Continuity Implies Uniform Continuity</span><span class="vd">3:53</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=1sxcGlVgEbw&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Blackwell&#x27;s Theorem (Dynamic Programming)</span><span class="vd">8:53</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=e3HSm21r5KQ&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Brief Example on Laplace Expansion</span><span class="vd">8:38</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=LuRtVTJIG60&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Simple Profit Maximization</span><span class="vd">8:58</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=-Vl88JhXT7w&list=PLEuzmtv9IuT8lakxmqof9z2AC-piWlFOo" target="_blank" rel="noopener"><span class="vt">Marginal and Total Revenue Functions</span><span class="vd">3:31</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Mathematical economics">
+    <div class="pl-head">
+      <div>
+        <h3>Mathematical Economics: Techniques of Integration</h3>
+        <p class="pl-meta"><span class="pl-topic">Mathematical economics</span> · 8 videos · 1h 24m</p>
+        <p class="pl-blurb">Integration methods and their economic uses.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>8 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=r8mUVDOX_7U&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Integration by Substitution</span><span class="vd">8:08</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=U1xhBu3t5bo&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Integration by Parts (Indefinite Integral)</span><span class="vd">10:53</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=eGpuPU_I1Ew&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Examples of Indefinite Integration</span><span class="vd">11:12</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=1H3X2yQ77w4&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Examples of Definite Integration</span><span class="vd">10:40</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=Wi4F8Uv4JO8&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Integration using Partial Fractions</span><span class="vd">9:07</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=QLiBU2sDafU&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Integration by Partial Fractions with Repeated Factors</span><span class="vd">10:17</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=NnFFhMsD9Ac&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Improper Integrals</span><span class="vd">8:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=DcfYmzt4jnY&list=PLEuzmtv9IuT8RgMUJ_Go8duPuvryI7lux" target="_blank" rel="noopener"><span class="vt">Solving for Consumer, Producer, and Social Surplus using Integration</span><span class="vd">15:39</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Mathematical economics">
+    <div class="pl-head">
+      <div>
+        <h3>Mathematical Economics: Differentiation</h3>
+        <p class="pl-meta"><span class="pl-topic">Mathematical economics</span> · 5 videos · 50m</p>
+        <p class="pl-blurb">Derivatives, optimisation, and comparative statics.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT88zrb2quve6LObgKNYoEo2" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>5 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=Mc9SZQWADGU&list=PLEuzmtv9IuT88zrb2quve6LObgKNYoEo2" target="_blank" rel="noopener"><span class="vt">The Differential in Economics</span><span class="vd">9:26</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=gxVRCEwibRM&list=PLEuzmtv9IuT88zrb2quve6LObgKNYoEo2" target="_blank" rel="noopener"><span class="vt">Economic Applications of Partial Differentiation</span><span class="vd">12:12</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=VNl6ILbYkZw&list=PLEuzmtv9IuT88zrb2quve6LObgKNYoEo2" target="_blank" rel="noopener"><span class="vt">First Order and Second Order Taylor Approximation</span><span class="vd">12:20</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ayJdAiLcl8c&list=PLEuzmtv9IuT88zrb2quve6LObgKNYoEo2" target="_blank" rel="noopener"><span class="vt">Fermat&#x27;s Theorem</span><span class="vd">6:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=XysWA8NzinY&list=PLEuzmtv9IuT88zrb2quve6LObgKNYoEo2" target="_blank" rel="noopener"><span class="vt">First Derivative Test</span><span class="vd">10:14</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Mathematical economics">
+    <div class="pl-head">
+      <div>
+        <h3>Economic Applications of Matrix Algebra</h3>
+        <p class="pl-meta"><span class="pl-topic">Mathematical economics</span> · 3 videos · 53m</p>
+        <p class="pl-blurb">Matrix methods as they turn up in economic models.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-6mXz0l1i9BYQzDku8ocdW" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>3 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=ZEQmokq9LT4&list=PLEuzmtv9IuT-6mXz0l1i9BYQzDku8ocdW" target="_blank" rel="noopener"><span class="vt">Solving a Closed Economy IS-LM Model using Cramer&#x27;s Rule</span><span class="vd">14:50</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=UheRnDJ4dgc&list=PLEuzmtv9IuT-6mXz0l1i9BYQzDku8ocdW" target="_blank" rel="noopener"><span class="vt">Leontief Input-Output Model and Demand for Primary Inputs</span><span class="vd">18:57</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ucrZqMww1Qc&list=PLEuzmtv9IuT-6mXz0l1i9BYQzDku8ocdW" target="_blank" rel="noopener"><span class="vt">Solving a Leontief Input-Output Model using Matrix Algebra</span><span class="vd">20:00</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Mathematical economics">
+    <div class="pl-head">
+      <div>
+        <h3>Mathematical Economics: First-Order Differential Equations</h3>
+        <p class="pl-meta"><span class="pl-topic">Mathematical economics</span> · 2 videos · 12m</p>
+        <p class="pl-blurb">Solving and interpreting first-order ODEs.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-ctjE65OPl75OyFU6Yll6N" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>2 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=y5QIgVE7_m4&list=PLEuzmtv9IuT-ctjE65OPl75OyFU6Yll6N" target="_blank" rel="noopener"><span class="vt">Order, Degree, and Linearity of an Ordinary Differential Equation</span><span class="vd">7:37</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=t6cwb_7r7M0&list=PLEuzmtv9IuT-ctjE65OPl75OyFU6Yll6N" target="_blank" rel="noopener"><span class="vt">Solutions of an Ordinary Differential Equation</span><span class="vd">4:57</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Financial economics">
+    <div class="pl-head">
+      <div>
+        <h3>Financial Economics</h3>
+        <p class="pl-meta"><span class="pl-topic">Financial economics</span> · 35 videos · 9h 54m</p>
+        <p class="pl-blurb">Asset pricing, portfolio choice, and derivatives.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>35 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=cBW67MBR6YQ&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Introduction to Financial Economics</span><span class="vd">14:29</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=3k7XJvG_HPo&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Consumption Smoothing and Risk Aversion</span><span class="vd">11:48</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=VVDGISbtUo4&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Overview of Financial Securities</span><span class="vd">13:48</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=SvyID-4bYOs&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Axioms of Consumer Preferences in  Financial Economics</span><span class="vd">11:01</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=o0STUg-KXKI&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Representing Consumer Preferences in Financial Economics</span><span class="vd">17:12</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=TSIRseFkCsg&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Incorporating the Capital Market in the Fisher Model</span><span class="vd">34:13</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ysGT288mxAc&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Examples on Deriving the Capital Market Trading Line</span><span class="vd">24:40</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=17VkLFWDbhU&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Foundations of the Consumer Optimum in the Fisher Model</span><span class="vd">21:33</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=daIPmy0OclQ&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Determining Optimal Consumption in the Fisher Model</span><span class="vd">27:50</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=-1RUPpNqhDg&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Introduction to Financial Decision Making Under Uncertainty</span><span class="vd">14:05</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=7jgxFpSRvcE&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Fair Games</span><span class="vd">9:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=nHi49IAppFs&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">The St. Petersburg Paradox and Expected Utility</span><span class="vd">16:23</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=BpoeASX3BLI&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Axioms of Choice Under Expected Utility</span><span class="vd">16:03</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=54D-w9SMenU&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Expected Utility Theorem and Certainty Equivalent</span><span class="vd">13:06</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=YLvF60kgVTw&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Deriving and Illustrating Expected Utility</span><span class="vd">26:15</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=eJ_bsjuVkFI&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Jensen&#x27;s Inequality in Expected Utility</span><span class="vd">6:33</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=RofLHu-C6ik&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Example of Expected Utility Theorem using Calculus</span><span class="vd">19:54</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=jlYInP9KIsc&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Insurance Premium in Expected Utility Theorem</span><span class="vd">29:50</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=kKyCf50CGGo&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Arrow-Pratt Measure of Absolute and Relative Risk Aversion</span><span class="vd">22:31</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=-qEqTnaNMTc&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Deeper Dive on Certainty Equivalent and Risk Premium</span><span class="vd">26:27</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=5qSO0Ji0WiQ&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Certainty Equivalent and Risk Premium in terms of Rates of Return</span><span class="vd">27:25</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=5Wd1QXCoPh8&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Asset Allocation using Expected Utility</span><span class="vd">19:00</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=rjinNCRXbck&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Determining the Optimal Proportion of Risky Investments</span><span class="vd">19:45</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=n5qk3RLtn-4&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Arrow&#x27;s Theorems on Investment and Risk Aversion</span><span class="vd">11:07</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=GjtDpSVZq_0&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Security Selection under Expected Utility</span><span class="vd">13:21</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=fFy4SC4_4Jo&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Mean-Variance Expected Utility Hypothesis</span><span class="vd">16:09</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=TOhKs7rXBSo&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Introduction to the Modern Portfolio Theory</span><span class="vd">10:17</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=rbXZwUs5Bm4&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Introduction to the Markowitz Model</span><span class="vd">8:17</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=yctdJqQo8g0&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">The Minimum Variance Portfolio (MVP)</span><span class="vd">23:16</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=SUh8PBjy5lA&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">The Portfolio Diversification Effect</span><span class="vd">18:00</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=GDbY_MpTASs&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">Investment Opportunity Set and Minimum Variance Set</span><span class="vd">12:19</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=xFLCxs25z7Y&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">CAPM Abnormal Returns</span><span class="vd">6:31</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=xowdw_rMYGs&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">CAPM Expected Return</span><span class="vd">5:53</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=19BsZb6ac_M&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">CAPM Security Market Line</span><span class="vd">20:05</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=3TAEMVKedY8&list=PLEuzmtv9IuT-_TUC4kCC1pS9K4Cb2MRi0" target="_blank" rel="noopener"><span class="vt">APT Equilibrium Rate of Return</span><span class="vd">5:14</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Statistics">
+    <div class="pl-head">
+      <div>
+        <h3>Statistics</h3>
+        <p class="pl-meta"><span class="pl-topic">Statistics</span> · 3 videos · 25m</p>
+        <p class="pl-blurb">Introductory statistical concepts.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT9-7rirxGt3BcHBfGjSLkW2" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>3 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=90Lacs9nynk&list=PLEuzmtv9IuT9-7rirxGt3BcHBfGjSLkW2" target="_blank" rel="noopener"><span class="vt">Proof: Mean Independence Implies Uncorrelatedness</span><span class="vd">6:10</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=7V170gTR1YE&list=PLEuzmtv9IuT9-7rirxGt3BcHBfGjSLkW2" target="_blank" rel="noopener"><span class="vt">Proof: Conditional Expectation Minimizes MSE</span><span class="vd">7:18</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=SjrarcM7HoY&list=PLEuzmtv9IuT9-7rirxGt3BcHBfGjSLkW2" target="_blank" rel="noopener"><span class="vt">The New Porsche 911 (992) | Chris Harris Drives | Top Gear</span><span class="vd">12:13</span></a></li>
+      </ol>
+    </details>
+  </article>
+  <article class="pl" data-topic="Statistics">
+    <div class="pl-head">
+      <div>
+        <h3>Asymptotic Theory - Statistics</h3>
+        <p class="pl-meta"><span class="pl-topic">Statistics</span> · 2 videos · 16m</p>
+        <p class="pl-blurb">Limit theorems and large-sample arguments.</p>
+      </div>
+      <a class="pl-play" href="https://www.youtube.com/playlist?list=PLEuzmtv9IuT-_tgUiFOBNsl8LX65l1hjY" target="_blank" rel="noopener">Play all &rarr;</a>
+    </div>
+    <details class="pl-videos">
+      <summary>2 videos</summary>
+      <ol>
+      <li><a href="https://www.youtube.com/watch?v=Tv1pEA8RngE&list=PLEuzmtv9IuT-_tgUiFOBNsl8LX65l1hjY" target="_blank" rel="noopener"><span class="vt">The Delta Method</span><span class="vd">6:56</span></a></li>
+      <li><a href="https://www.youtube.com/watch?v=uO3stum69tQ&list=PLEuzmtv9IuT-_tgUiFOBNsl8LX65l1hjY" target="_blank" rel="noopener"><span class="vt">Examples on Convergence Limits</span><span class="vd">9:26</span></a></li>
+      </ol>
+    </details>
+  </article>
+</div>
+
+<p class="empty" id="plempty">Nothing matches that search.</p>
+
+<div class="allrepos">
+  <a class="btn-j primary" href="https://www.youtube.com/@JustinEloriaga" target="_blank" rel="noopener">Subscribe on YouTube</a>
+</div>
+```

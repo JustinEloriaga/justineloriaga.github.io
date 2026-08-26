@@ -1,0 +1,68 @@
+---
+title: "CV and short bio"
+page-layout: article
+---
+
+<p class="mono eyebrow">CV</p>
+
+# Curriculum vitae
+
+<div class="actions" style="margin-bottom:44px">
+  <a class="btn-j primary" href="/files/cv.pdf">Download CV (PDF)</a>
+  <a class="btn-j" href="mailto:jeloriaga@imf.org">Email</a>
+</div>
+
+## Short bio
+
+Justin S. Eloriaga is an Economist at the International Monetary Fund's Shanghai
+Center (国际货币基金组织上海中心), the Fund's regional hub for the Asia-Pacific, which
+promotes applied policy research on questions facing emerging market and
+middle-income economies and serves as a venue for policy dialogue and knowledge
+exchange across the region.
+
+He holds a Ph.D. in Economics from Emory University, completed under the auspices of
+the J. William Fulbright Scholarship, with a dissertation on *Narrative Identification
+of Vector Autoregressions* supervised by Juan Rubio-Ramírez. Before Emory he graduated
+summa cum laude with a B.Sc. in Applied Economics and an M.Sc. in Economics from
+De La Salle University, completing the ladderized degree in the fastest time recorded.
+
+His research is in macroeconomics, with a focus on Bayesian time-series econometrics
+and monetary economics. Recent work identifies Fed information shocks episode by
+episode from the narrative record, replaces hard identifying restrictions with
+narrative ones in oil-market and monetary VARs, and studies how monetary policy,
+trade, and energy constraints propagate across Asia.
+
+He is an Associate Editor at the *DLSU Business & Economics Review* and referees for
+*The Review of Economics and Statistics*, the *Journal of Economic Dynamics and
+Control*, and the *International Journal of Forecasting*, among others. Before joining
+the Fund he was a Visiting Instructor at Emory University's Department of Data and
+Decision Sciences, an Assistant Professorial Lecturer at De La Salle University, and a
+Central Bank Associate at the Bangko Sentral ng Pilipinas.
+
+```{=html}
+<div class="about rule-top">
+  <div>
+    <p class="mono eyebrow">Appointments</p>
+    <ul class="deg">
+      <li><span class="yr">2026 —</span>Economist<br><span class="school">International Monetary Fund, Shanghai Center</span></li>
+      <li><span class="yr">2026</span>Visiting Instructor, Data and Decision Sciences<br><span class="school">Emory University</span></li>
+      <li><span class="yr">2019 – 2025</span>Assistant Professorial Lecturer, School of Economics<br><span class="school">De La Salle University</span></li>
+      <li><span class="yr">2020 – 2021</span>Central Bank Associate<br><span class="school">Bangko Sentral ng Pilipinas</span></li>
+      <li><span class="yr">2019 – 2020</span>Data Analytics Specialist<br><span class="school">Bangko Sentral ng Pilipinas</span></li>
+    </ul>
+  </div>
+
+  <div>
+    <p class="mono eyebrow">Education</p>
+    <ul class="deg">
+      <li><span class="yr">2026</span>Ph.D. Economics<br><span class="school">Emory University</span></li>
+      <li><span class="yr">2025</span>M.A. Economics<br><span class="school">Emory University</span></li>
+      <li><span class="yr">2019</span>M.Sc. Economics<br><span class="school">De La Salle University</span></li>
+      <li><span class="yr">2017</span>B.Sc. Applied Economics, summa cum laude<br><span class="school">De La Salle University</span></li>
+    </ul>
+  </div>
+</div>
+```
+
+<!-- Awards, service, and referees are all in the PDF; kept off this page so there is
+     only one place to update them. -->
