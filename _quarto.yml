@@ -21,7 +21,7 @@ website:
           - href: lecture-materials/index.qmd
             text: Lecture materials
           - href: teaching-playlists/index.qmd
-            text: Teaching playlists
+            text: YouTube playlists
       - href: cv-and-short-bio/index.qmd
         text: CV
   page-footer:
@@ -41,7 +41,9 @@ website:
 
 format:
   html:
-    theme: [cosmo, custom.scss]
+    theme:
+      light: [cosmo, custom.scss]
+      dark: [cosmo, custom.scss, dark.scss]
     toc: false
     anchor-sections: false
     include-in-header:

@@ -36,7 +36,7 @@ include-after-body:
 </div>
 
 <div class="group">
-  <div class="group-label"><span>Working Papers and Work in Progress</span><span>Macro &amp; time series</span></div>
+  <div class="group-label"><span>Working Papers and Work in Progress</span></div>
 
   <article class="paper" data-status="review">
     <div class="tag live">Under review</div>

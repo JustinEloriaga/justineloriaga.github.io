@@ -1,0 +1,54 @@
+/*-- scss:defaults --*/
+
+// Dark counterpart to custom.scss. Only the palette changes — every component
+// in custom.scss is driven by the seven CSS variables redefined below, so the
+// layout, type, and spacing are shared between the two themes.
+
+$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, monospace;
+$headings-font-family:   "Archivo", "IBM Plex Sans", sans-serif;
+
+$font-size-root: 16.5px;
+$body-bg:    #14171A;
+$body-color: #E8EAEC;
+$link-color: #8FBFDD;
+$link-hover-color: #B4D6EC;
+
+$navbar-bg: #14171A;
+$navbar-fg: #9AA3AB;
+$navbar-hl: #8FBFDD;
+
+$footer-bg: #14171A;
+$footer-fg: #9AA3AB;
+
+$border-radius: 2px;
+$grid-body-width: 1080px;
+
+/*-- scss:rules --*/
+
+:root {
+  --paper: #14171A;
+  --card:  #1C2024;
+  --ink:   #E8EAEC;
+  --ink-2: #9AA3AB;
+  --rule:  #2C3238;
+  --accent:#8FBFDD;
+  --flag:  #E0AC5A;
+}
+
+body { background: var(--paper); color: var(--ink); }
+
+/* Photo frame reads too faintly against a dark ground at 0.35 */
+.shot::after { opacity: 0.55; }
+
+/* Accent-tinted surfaces need more lift on dark than the 3.5% used on light */
+.pl.hit { background: rgba(143, 191, 221, 0.06); }
+.pl-search input:focus { box-shadow: 0 0 0 3px rgba(143, 191, 221, 0.18); }
+.pl-search input::placeholder { color: #6E777F; }
+
+/* Bootstrap paints its own light surfaces on a few controls */
+input, select, textarea { background: var(--card); color: var(--ink); }
+
+/* The active filter chip inverts to the foreground colour — on dark that means
+   a light pill with dark text, which is correct, but the border must follow. */
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }

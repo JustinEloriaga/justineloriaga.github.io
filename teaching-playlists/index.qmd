@@ -1,5 +1,5 @@
 ---
-title: "Teaching playlists"
+title: "Justin's YouTube Channel Playlists"
 page-layout: article
 include-after-body:
   text: |
@@ -8,7 +8,7 @@ include-after-body:
 
 <p class="mono eyebrow">02 — Teaching</p>
 
-# Teaching playlists
+# Justin's YouTube Channel Playlists
 
 <p class="lede">257 lecture videos — about 50 hours — across 26 playlists, from
 introductory micro and macro through mathematical economics to applied time series.
