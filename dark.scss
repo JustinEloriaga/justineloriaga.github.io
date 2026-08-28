@@ -52,3 +52,45 @@ input, select, textarea { background: var(--card); color: var(--ink); }
 /* The active filter chip inverts to the foreground colour — on dark that means
    a light pill with dark text, which is correct, but the border must follow. */
 .chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
+/* Navbar and footer.
+   Quarto's SCSS defaults are first-wins, so the $navbar-* / $footer-* variables
+   set above are overridden by custom.scss and never reach the dark bundle. These
+   rules do the job instead — the rules layer is concatenated after custom.scss,
+   so ordinary cascade order applies and these win. */
+.navbar {
+  background: var(--card);
+  border-bottom-color: var(--rule);
+  --bs-navbar-color: var(--ink-2);
+  --bs-navbar-hover-color: var(--accent);
+  --bs-navbar-active-color: var(--accent);
+  --bs-navbar-brand-color: var(--ink);
+  --bs-navbar-brand-hover-color: var(--ink);
+  --bs-navbar-toggler-border-color: var(--rule);
+  --bs-navbar-toggler-icon-bg: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+.navbar-brand, .navbar .navbar-brand:hover { color: var(--ink); }
+.navbar .quarto-navigation-tool { color: var(--ink-2); }
+.navbar .quarto-navigation-tool:hover { color: var(--accent); }
+
+/* Dropdown ("Teaching") and the mobile collapsed panel are white by default */
+.navbar .dropdown-menu {
+  background: var(--card);
+  border-color: var(--rule);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.45);
+}
+.navbar .dropdown-item { color: var(--ink); }
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus { background: rgba(143, 191, 221, 0.10); color: var(--accent); }
+.navbar-collapse { background: var(--card); }
+
+.nav-footer { border-top-color: var(--rule); background: var(--paper); color: var(--ink-2); }
+.nav-footer a { color: var(--ink-2); }
+.nav-footer a:hover { color: var(--accent); }
+
+/* Search overlay is Quarto chrome and ships light by default */
+.aa-Autocomplete, .quarto-search-results, .aa-Panel {
+  background: var(--card); color: var(--ink); border-color: var(--rule);
+}
+.aa-Input, .aa-DetachedSearchButton { background: var(--card); color: var(--ink); }
