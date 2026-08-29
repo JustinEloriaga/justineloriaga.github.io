@@ -46,17 +46,33 @@ h3 { font-weight: 500; font-size: 19.5px; line-height: 1.28; letter-spacing: -0.
   background: var(--card);
   border-bottom: 1px solid var(--rule);
   backdrop-filter: blur(8px);
-  --bs-navbar-padding-y: 0.9rem;
+  --bs-navbar-padding-y: 1.15rem;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
 }
 .navbar-brand {
   font-family: "Archivo", sans-serif; font-weight: 600; letter-spacing: -0.01em;
-  font-size: 20px;
+  font-size: 22px;
 }
-.navbar-nav .nav-link {
-  font-family: "IBM Plex Mono", monospace; font-size: 13px;
+/* Bootstrap ships .navbar-expand-lg .navbar-nav .nav-link{padding:.6rem}, which
+   outranks a bare .navbar-nav .nav-link on specificity no matter how late it
+   appears. Matching its three-class weight is what makes this stick. */
+.navbar .navbar-nav .nav-link {
+  font-family: "IBM Plex Mono", monospace; font-size: 14px;
   letter-spacing: 0.085em; text-transform: uppercase;
-  padding-left: 15px; padding-right: 15px;
+  padding-left: 17px; padding-right: 17px;
+}
+
+/* Quarto's default theme switch is a generic on/off toggle glyph, which does not
+   read as "dark mode". Swap in a moon (click to go dark) and a sun (click to go
+   back). Fills are literal because a data: URI cannot see CSS variables. */
+.quarto-color-scheme-toggle .bi::before {
+  height: 1.15rem; width: 1.15rem; background-size: 1.15rem 1.15rem;
+}
+.navbar .quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='rgba(91,97,105,1)' viewBox='0 0 16 16'><path d='M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z'/></svg>");
+}
+.navbar .quarto-color-scheme-toggle.alternate .bi::before {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='rgba(91,97,105,1)' viewBox='0 0 16 16'><path d='M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707z'/></svg>");
 }
 .navbar .dropdown-menu { border-color: var(--rule); }
 .navbar .dropdown-item {
