@@ -299,6 +299,20 @@ main.content { padding-top: 8px; }
   .cv-preview-small { display: block; margin-bottom: 30px; }
 }
 
+/* Portrait download (CV page) ----------------------------------------- */
+.portrait-dl { display: flex; gap: 26px; align-items: center; }
+.portrait-dl img {
+  width: 132px; height: auto; flex: none;
+  border: 1px solid var(--rule); border-radius: 2px; display: block;
+}
+.portrait-dl p:not(.eyebrow) {
+  font-size: 15px; color: var(--ink-2); margin: 0 0 14px; max-width: 52ch;
+}
+
+@media (max-width: 620px) {
+  .portrait-dl { flex-direction: column; align-items: flex-start; gap: 18px; }
+}
+
 /* Responsive ---------------------------------------------------------- */
 @media (max-width: 860px) {
   .hero, .about { grid-template-columns: 1fr; gap: 36px; }

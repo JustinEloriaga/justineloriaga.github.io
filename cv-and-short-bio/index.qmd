@@ -79,5 +79,23 @@ Bank Associate at the Bangko Sentral ng Pilipinas.
 </div>
 ```
 
+```{=html}
+<div class="portrait-dl rule-top">
+  <img src="/img/portrait.jpg" alt="Justin Eloriaga">
+  <div>
+    <p class="mono eyebrow">Portrait</p>
+    <p>For conference programmes, seminar announcements, and press use.
+    JPEG, 720 &times; 900 px.</p>
+    <a class="btn-j" href="/files/justin-eloriaga-portrait.jpg"
+       download="justin-eloriaga-portrait.jpg">Download portrait</a>
+  </div>
+</div>
+```
+
 <!-- Awards, service, and referees are all in the PDF; kept off this page so there is
-     only one place to update them. -->
+     only one place to update them.
+
+     The portrait download points at files/justin-eloriaga-portrait.jpg, which is
+     currently a copy of the 720x900 web image. To offer a genuinely print-resolution
+     shot, overwrite that file with the full-size original and update the dimensions
+     in the paragraph above. The link and filename do not need to change. -->
