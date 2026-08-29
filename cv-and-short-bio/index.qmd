@@ -7,10 +7,28 @@ page-layout: article
 
 # Curriculum vitae
 
-<div class="actions" style="margin-bottom:44px">
+<div class="actions" style="margin-bottom:26px">
   <a class="btn-j primary" href="/files/cv.pdf">Download CV (PDF)</a>
+  <a class="btn-j" href="/files/cv.pdf" target="_blank" rel="noopener">Open in new tab</a>
   <a class="btn-j" href="mailto:jeloriaga@imf.org">Email</a>
 </div>
+
+```{=html}
+<figure class="cv-preview">
+  <object data="/files/cv.pdf#view=FitH" type="application/pdf" aria-label="Curriculum vitae, inline preview">
+    <div class="cv-fallback">
+      <p>This browser will not display PDFs inline.</p>
+      <a class="btn-j primary" href="/files/cv.pdf">Download the CV instead</a>
+    </div>
+  </object>
+  <figcaption>Scroll inside the frame to read. Use the buttons above to download or open it full size.</figcaption>
+</figure>
+
+<div class="cv-preview-small">
+  <a class="btn-j primary" href="/files/cv.pdf">Open the CV (PDF)</a>
+  <p>Inline preview is hidden on small screens — PDFs are unreadable in a phone-sized frame.</p>
+</div>
+```
 
 ## Short bio
 

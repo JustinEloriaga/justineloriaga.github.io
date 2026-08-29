@@ -262,6 +262,43 @@ main.content { padding-top: 8px; }
   .pl-videos li a { flex-wrap: wrap; gap: 6px; }
 }
 
+/* CV inline preview ---------------------------------------------------- */
+/* The browser's own PDF viewer supplies the scrolling and page controls; we
+   only supply the frame. Hidden below 760px, where a PDF in a phone-width
+   box is unreadable and the plain link is genuinely better. */
+.cv-preview {
+  margin: 0 0 12px;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  background: var(--card);
+  overflow: hidden;
+}
+.cv-preview object {
+  display: block;
+  width: 100%;
+  /* Tall enough that a full Letter page is legible at FitH. The min-height
+     floor keeps the frame usable on short laptop windows, where 92vh alone
+     would collapse it. */
+  height: min(92vh, 1320px);
+  min-height: 760px;
+  border: 0;
+}
+.cv-preview figcaption {
+  font-size: 13px; color: var(--ink-2);
+  padding: 10px 14px;
+  border-top: 1px solid var(--rule);
+}
+.cv-fallback { padding: 48px 24px; text-align: center; }
+.cv-fallback p { color: var(--ink-2); margin: 0 0 16px; }
+
+.cv-preview-small { display: none; }
+.cv-preview-small p { font-size: 14px; color: var(--ink-2); margin: 14px 0 0; }
+
+@media (max-width: 760px) {
+  .cv-preview { display: none; }
+  .cv-preview-small { display: block; margin-bottom: 30px; }
+}
+
 /* Responsive ---------------------------------------------------------- */
 @media (max-width: 860px) {
   .hero, .about { grid-template-columns: 1fr; gap: 36px; }
