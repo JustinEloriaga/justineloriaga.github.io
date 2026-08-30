@@ -38,8 +38,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-1633e04f8a4e8fd338dab390f960c182.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5e6d37853567175b6d2ae8f81fc62187.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1988d6c00398a998f156e8580de1c332.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-b41df94d0c48f807ec9cdbe9e0a476e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-5549c0d56d35f1113087e4bde0b3b9ed.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,10 +91,21 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../research/index.html">
+ <span class="dropdown-text">Papers</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../research/policy-space/index.html">
+ <span class="dropdown-text">Policy space dashboard</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Teaching</span>
@@ -169,6 +180,16 @@ ul.task-list li input[type="checkbox"] {
 </p>
 <section id="papers" class="level1">
 <h1>Papers</h1>
+<a class="ps-promo" href="../research/policy-space/">
+  <div>
+    <p class="mono eyebrow">Interactive</p>
+    <h3 data-anchor-id="papers">Policy space dashboard</h3>
+    <p>The Policy Buffers Index and the Effective Space Index from <em>Room to Respond</em>,
+    mapped and charted by country. Preliminary research output.</p>
+  </div>
+  <span class="ps-promo-go">Open →</span>
+</a>
+
 <div class="filters" role="group" aria-label="Filter papers by status">
   <button class="chip" data-filter="all" aria-pressed="true">All</button>
   <button class="chip" data-filter="review" aria-pressed="false">Under review</button>
@@ -183,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
   <article class="paper" data-status="review">
     <div class="tag live">Under review</div>
     <div>
-      <h3 data-anchor-id="papers">The Fed Information Effect, Episode by Episode</h3>
+      <h3>The Fed Information Effect, Episode by Episode</h3>
       <p class="note">Presented at the 94th Southern Economic Association Annual Conference</p>
       <details><summary>Abstract</summary><p>The Fed information effect — whereby a policy tightening can signal Fed optimism and raise output and prices — appears at some FOMC meetings but not others. High-frequency studies classify individual meetings as information or policy surprises but cannot trace the macroeconomic dynamics of any single episode. Combining narrative sign restrictions with a systematic-monetary-policy SVAR, I recover episode-specific output and price responses for well-documented decisions from 1968 to 2025. The information channel is real but heterogeneous, largely muted, and increasingly rare, surviving only at genuine communication surprises. The results complement, rather than overturn, the response-to-news account of Bauer and Swanson.</p></details>
       <div class="links">

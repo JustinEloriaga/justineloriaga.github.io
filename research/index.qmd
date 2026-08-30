@@ -27,6 +27,16 @@ include-after-body:
 # Papers
 
 ```{=html}
+<a class="ps-promo" href="/research/policy-space/">
+  <div>
+    <p class="mono eyebrow">Interactive</p>
+    <h3>Policy space dashboard</h3>
+    <p>The Policy Buffers Index and the Effective Space Index from <em>Room to Respond</em>,
+    mapped and charted by country. Preliminary research output.</p>
+  </div>
+  <span class="ps-promo-go">Open &rarr;</span>
+</a>
+
 <div class="filters" role="group" aria-label="Filter papers by status">
   <button class="chip" data-filter="all" aria-pressed="true">All</button>
   <button class="chip" data-filter="review" aria-pressed="false">Under review</button>

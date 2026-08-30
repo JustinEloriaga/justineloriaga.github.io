@@ -14,8 +14,12 @@ website:
   navbar:
     pinned: true
     left:
-      - href: research/index.qmd
-        text: Research
+      - text: Research
+        menu:
+          - href: research/index.qmd
+            text: Papers
+          - href: research/policy-space/index.qmd
+            text: Policy space dashboard
       - text: Teaching
         menu:
           - href: lecture-materials/index.qmd
