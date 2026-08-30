@@ -172,13 +172,10 @@ The Policy Buffers Index and the Effective Space Index, from <em>Room to Respond
   <p class="ps-warn-h">Preliminary research output — please read before using these numbers</p>
   <ul>
     <li><strong>This is not final work.</strong> <em>Room to Respond</em> is an unpublished
-    working paper under review. Both indices, their inputs, and the estimates behind them
-    may change materially before publication. Nothing here should be cited as a settled
-    result.</li>
-    <li><strong>These are not the views of the IMF.</strong> The indices are the author's own
-    calculations and do not represent the views of the International Monetary Fund, its
-    Executive Board, or IMF Management. They are not an IMF product, an IMF assessment of any
-    member country, and carry no official standing whatsoever.</li>
+    working paper. Both indices, their inputs, and the estimates behind them may change
+    materially before publication. Nothing here should be cited as a settled result.</li>
+    <li>The views expressed are those of the author and do not necessarily reflect the views of
+    the International Monetary Fund, its Executive Board, or IMF Management.</li>
     <li><strong>Not a country risk assessment.</strong> Neither index is a rating, a forecast,
     a measure of creditworthiness, or advice of any kind. They are research measures built to
     answer one narrow question about crisis response.</li>
@@ -268,46 +265,29 @@ PHL,Philippines,2019,57.2,61.0</code></pre>
   it.</p>
 
   <p><strong>Effective Space Index (ESI).</strong> The within-year percentile rank of an
-  effective-space measure predicted by a random forest fitted to crisis outcomes over a wider
-  state vector. It changes both the recipe and the ingredients relative to the PBI.</p>
+  effective-space score from an honest causal forest trained on banking-crisis severity, using
+  the Laeven and Valencia (2026) chronology over 1970 to 2019. It changes both the recipe and
+  the ingredients relative to the PBI.</p>
 
-  <p class="ps-caveat-h">Caveats that bear directly on how these charts should be read</p>
-  <ul>
-    <li><strong>Uneven coverage.</strong> A country is ranked once it reports four of the six
-    components, so economies with sparse statistics can be ranked on partial information. The
-    spread component in particular is missing for much of the sample.</li>
+  <p><strong>Coverage.</strong> 197 economies, 1871 to 2024, with 9,787 PBI observations and
+  12,477 ESI observations. Early years are thin: fewer than 500 observations per decade before
+  1970, against roughly 1,900 in the 2010s.</p>
 
-    <li><strong>The indices reward what is measured.</strong> Large reported reserve stocks and
-    fiscal surpluses lift commodity exporters. Capacities that no input measures — reserve
-    currency status, swap lines, deep local investor bases, institutional strength — count for
-    nothing, which mechanically favours some countries over others.</li>
+  <p class="ps-caveat-h">How to read these numbers</p>
 
-    <li><strong>Neighbouring ranks are not meaningful distinctions.</strong> Inputs arrive with
-    error and reporting lags that are largest outside advanced economies.</li>
-
-    <li><strong>The ESI is noisy, and its country-level calls deserve skepticism.</strong> The
-    average 68 percent interval on a 2019 score spans 7.9 log points against a cross-country
-    interquartile range of 3.6, so within-year ordering is dominated by estimation error.
-    Year-to-year rank persistence is 0.72, against 0.83 for the buffers index. The paper
-    presents it as an informative companion to the PBI, not a validated ranking and not a
-    replacement.</li>
-
-    <li><strong>ESI rankings are specification-sensitive.</strong> The United States sits 122nd
-    of 154 on the 2019 cross section, but between 70th and 122nd across the forest
-    configurations examined.</li>
-
-    <li><strong>Two known failures are deliberate exhibits.</strong> Russia sits in the top
-    tenth on low debt and a large reserve stock, while the sanctions regime in place since 2014
-    already constrained exactly the market access an effective measure ought to capture. The
-    United States sits 139th of 144 on the PBI, which is mechanically correct yet hard to
-    credit for the issuer of the world's reserve currency — it pairs a bottom-decile debt score
-    and persistent deficits with a measured reserve stock near zero relative to GDP, because a
-    country whose currency others hold as reserves has little need to hold reserves itself.</li>
-
-    <li><strong>Scores are within-year percentiles.</strong> A country can rise because others
-    fell. Levels are not comparable to any absolute standard, and a score is a position in a
-    distribution, not a quantity of fiscal space.</li>
-  </ul>
+  <p>Both indices are within-year percentile ranks, so a score is a country's position among
+  those reporting in that year rather than a quantity of fiscal space, and a country can move
+  simply because others did. Coverage is uneven and thinner in earlier years and outside the
+  advanced economies, inputs arrive with error and reporting lags, and countries can be scored
+  on partial information, so neighbouring ranks are not meaningful distinctions. The indices
+  can only reward what their inputs measure, which leaves out capacities such as reserve
+  currency status, standing swap lines, deep domestic investor bases and institutional
+  strength — an omission that mechanically favours some countries over others and produces
+  individual rankings the paper itself treats as implausible. The estimated index carries
+  materially more uncertainty than the observable one, is sensitive to specification, and is
+  presented as a companion to it rather than a replacement. Rankings shown here will not line
+  up with the tables in the paper, which restrict the sample. Read the paper before drawing
+  conclusions from any single country's series.</p>
 
   <p class="ps-src">Source: author's calculations, from <em>Room to Respond</em>.
   Country outlines from Natural Earth (public domain); boundaries and names do not imply any

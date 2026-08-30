@@ -108,6 +108,20 @@
     return { byIso: byIso, years: ys };
   }
 
+  function defaultStartYear(parsed) {
+    var perYear = {}, iso, y;
+    for (iso in parsed.byIso) {
+      for (y in parsed.byIso[iso].byYear) perYear[y] = (perYear[y] || 0) + 1;
+    }
+    var peak = 0, k;
+    for (k in perYear) if (perYear[k] > peak) peak = perYear[k];
+    var need = peak * 0.5;
+    for (var i = 0; i < parsed.years.length; i++) {
+      if (perYear[parsed.years[i]] >= need) return parsed.years[i];
+    }
+    return parsed.years[0];
+  }
+
   function valueAt(iso, year, which) {
     var c = state.data[iso];
     if (!c) return null;
@@ -328,7 +342,7 @@
     });
     el.reset.addEventListener("click", function () {
       state.selected = [];
-      state.y0 = state.yearMin; state.y1 = state.yearMax;
+      state.y0 = state.defaultY0; state.y1 = state.yearMax;
       state.mapYear = state.yearMax;
       el.y0.value = state.y0; el.y1.value = state.y1;
       el.mapYear.min = state.y0; el.mapYear.max = state.y1; el.mapYear.value = state.mapYear;
@@ -349,13 +363,20 @@
       state.years = parsed.years;
       state.yearMin = parsed.years[0];
       state.yearMax = parsed.years[parsed.years.length - 1];
-      state.y0 = state.yearMin; state.y1 = state.yearMax;
       state.mapYear = state.yearMax;
+
+      /* The panel reaches back to the 1870s, but a percentile computed among a
+         dozen reporting countries is not comparable to one computed among 174.
+         Open on the first year where coverage reaches half its peak, which lands
+         on 1971 for this panel — the era the paper works in, and the start of
+         the ESI's training window. The slider still reaches the full range. */
+      state.defaultY0 = state.y0 = defaultStartYear(parsed);
+      state.y1 = state.yearMax;
 
       [el.y0, el.y1, el.mapYear].forEach(function (inp) {
         inp.min = state.yearMin; inp.max = state.yearMax;
       });
-      el.y0.value = state.yearMin; el.y1.value = state.yearMax;
+      el.y0.value = state.y0; el.y1.value = state.y1;
       el.mapYear.value = state.mapYear;
 
       el.empty.hidden = true;
