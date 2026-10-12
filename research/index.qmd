@@ -132,7 +132,7 @@ include-after-body:
       <p class="coauth">with Jesus C. Dumagan</p>
       <details><summary>Abstract</summary><p>Between 2005 and 2025, agriculture&#x27;s share of Philippine employment fell from 36 to 20.5 percent, but the workers who left farming did not move into manufacturing, whose share also fell. We measure how much this pattern of reallocation contributed to aggregate labor productivity growth. Applying the generalized exactly additive decomposition to chain-linked volumes, we split the reallocation effect exactly into an exit effect, which values agriculture&#x27;s shrinking share of employment, and an absorption effect, which captures how the rest of the economy took up labor. Reallocation added 0.33 percentage points a year to productivity growth, 11 percent of the total. Exit added 0.67 points a year and absorption subtracted 0.34 points, three-quarters of it because manufacturing lost employment share. Vietnam gained more from reallocation mainly because its workers left agriculture faster. We also show that the traditional shift-share decomposition cannot be applied exactly to chain-linked volumes and that sectoral reallocation effects from fixed-base volumes depend on the base year.</p></details>
       <div class="links">
-        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5227809">Earlier version (SSRN)</a>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570266">SSRN preprint</a>
       </div>
     </div>
   </article>
