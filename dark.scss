@@ -123,3 +123,11 @@ input, select, textarea { background: var(--card); color: var(--ink); }
 .ps-ramp {
   background: linear-gradient(to right, #33424D, #40596B, #4E718A, #5E8AA6, #74A5C0, #93BFD6, #B7D9EC);
 }
+
+/* Policymaker uncertainty dashboard ---------------------------------- */
+:root { --pmu-c8: #A9C97A; --pmu-c9: #E39A7A; --pmu-episode: rgba(143, 191, 221, 0.09); --pmu-quote: rgba(143, 191, 221, 0.07); }
+.pmu-rankrow:hover { background: rgba(143, 191, 221, 0.10); }
+.pmu-term { background: rgba(143, 191, 221, 0.14); }
+.pmu-term-topic { background: rgba(224, 172, 90, 0.16); }
+.pmu-lock-bad { color: #E39A7A; }
+

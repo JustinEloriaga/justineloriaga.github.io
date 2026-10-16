@@ -37,6 +37,17 @@ include-after-body:
   <span class="ps-promo-go">Open &rarr;</span>
 </a>
 
+<a class="ps-promo" href="/research/policymaker-uncertainty/">
+  <div>
+    <p class="mono eyebrow">Interactive</p>
+    <h3>Policymaker uncertainty dashboard</h3>
+    <p>What ten Asian central banks are uncertain about, read from their own records: topic
+    indices, a stance score, and the sentences behind each spike. Joint with Qing Peng.
+    Restricted preview while the paper is unpublished; a passphrase is required.</p>
+  </div>
+  <span class="ps-promo-go">Open &rarr;</span>
+</a>
+
 <div class="filters" role="group" aria-label="Filter papers by status">
   <button class="chip" data-filter="all" aria-pressed="true">All</button>
   <button class="chip" data-filter="review" aria-pressed="false">Under review</button>

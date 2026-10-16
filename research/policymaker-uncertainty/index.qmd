@@ -1,0 +1,40 @@
+---
+title: "Policymaker uncertainty dashboard"
+page-layout: article
+include-in-header:
+  text: |
+    <meta name="robots" content="noindex, nofollow">
+include-after-body:
+  text: |
+    <script src="/js/world-paths.js"></script>
+    <script src="/js/pmu-lock.js"></script>
+---
+
+<p class="mono eyebrow">02 — Research · Trade Disruptions and Monetary Policy in Asia</p>
+
+# What Asian central banks are uncertain about
+
+<p class="lede">Policymaker uncertainty indices for ten Asian central banks, read from their own
+meeting records, with a trade-policy topic and a hawk–dove stance score. Joint work with Qing Peng
+(IMF Shanghai Center).</p>
+
+```{=html}
+<div id="pmu-lock" class="pmu-lock">
+  <p class="mono eyebrow">Restricted preview</p>
+  <p class="pmu-lock-lede">This dashboard shows preliminary results from an unpublished working paper
+  and is open to collaborators, discussants and workshop participants only. Enter the passphrase to
+  unlock it. The page is decrypted in your browser; nothing you type is sent anywhere.</p>
+  <form id="pmu-lock-form" autocomplete="off">
+    <label for="pmu-pass" class="mono eyebrow">Passphrase</label>
+    <div class="pmu-lock-row">
+      <input type="password" id="pmu-pass" autocomplete="current-password" spellcheck="false" aria-label="Passphrase">
+      <button class="btn-j primary" type="submit" id="pmu-unlock">Unlock</button>
+    </div>
+    <p id="pmu-lock-msg" class="pmu-lock-msg" role="status" aria-live="polite"></p>
+  </form>
+  <p class="pmu-note">For access, write to the authors. The views expressed are those of the authors and
+  do not necessarily reflect the views of the International Monetary Fund, its Executive Board, or IMF
+  Management.</p>
+</div>
+<div id="pmu-unlocked"></div>
+```

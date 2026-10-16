@@ -417,11 +417,11 @@ main.content { padding-top: 8px; }
 .ps-chip:hover { border-color: var(--accent); color: var(--accent); }
 .ps-chip i, .ps-key i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
 
-#ps-search {
+#ps-search, #pmu-search {
   width: 100%; padding: 10px 13px; border: 1px solid var(--rule);
   background: var(--card); color: var(--ink); border-radius: 2px; font-family: inherit; font-size: 15px;
 }
-#ps-search:focus { outline: none; border-color: var(--accent); }
+#ps-search:focus, #pmu-search:focus { outline: none; border-color: var(--accent); }
 .ps-picker {
   list-style: none; margin: 8px 0 0; padding: 0; max-height: 230px; overflow-y: auto;
   border: 1px solid var(--rule); border-radius: 2px; background: var(--card);
@@ -497,3 +497,96 @@ main.content { padding-top: 8px; }
 .shot.figure { margin: 0; }
 .hero > section, .about > div > section { margin: 0; }
 .hero .level1 { border: 0; padding: 0; }
+
+/* Policymaker uncertainty dashboard ------------------------------------ */
+/* Shares the ps-* components above; these are the extras: the map + ranking
+   row, the bar rankings, the spike callout card, the window panels. */
+:root { --pmu-c8: #5C7C3A; --pmu-c9: #A04B2E; --pmu-episode: rgba(29, 78, 111, 0.07); --pmu-quote: rgba(29, 78, 111, 0.05); }
+.pmu-controls-2 { border-top: 0; padding-top: 18px; }
+.pmu-maprow { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 34px; align-items: start; margin: 26px 0 8px; }
+.pmu-mapwrap { margin: 0; }
+.pmu-map-svg path.pmu-out { pointer-events: none; }
+.pmu-map-svg circle.pmu-city { stroke: var(--ps-stroke); stroke-width: 0.7; cursor: pointer; transition: opacity .12s; }
+.pmu-map-svg circle.pmu-city:hover { opacity: 0.72; }
+.pmu-map-svg circle.ps-sel { stroke: var(--ink); stroke-width: 1.2; }
+.pmu-map-svg circle:focus-visible { outline: 2px solid var(--accent); }
+.pmu-city-label { font-family: "IBM Plex Mono", monospace; font-size: 5.2px; fill: var(--ink-2); pointer-events: none; }
+.pmu-note { font-size: 13px; color: var(--ink-2); margin: 10px 0 0; max-width: 70ch; }
+.pmu-rankwrap { padding-top: 6px; }
+.pmu-rank { display: flex; flex-direction: column; gap: 5px; margin-top: 10px; }
+.pmu-rankrow {
+  display: grid; grid-template-columns: 112px 1fr 92px; gap: 12px; align-items: center;
+  width: 100%; background: none; border: 0; border-radius: 2px; padding: 5px 6px; cursor: pointer; text-align: left;
+  font-family: inherit; font-size: 13.5px; color: var(--ink);
+}
+.pmu-rankrow:hover { background: rgba(29, 78, 111, 0.06); }
+.pmu-rankrow[aria-pressed="true"] .pmu-rankname { font-weight: 600; color: var(--accent); }
+.pmu-rankrow-na { color: var(--ink-2); }
+.pmu-rankname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pmu-rankbar { display: block; height: 10px; background: var(--ps-nodata); border-radius: 2px; overflow: hidden; }
+.pmu-rankbar i { display: block; height: 100%; border-radius: 2px; }
+.pmu-rankval { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink-2); text-align: right; white-space: nowrap; }
+.pmu-rankval small { font-size: 10.5px; opacity: 0.8; }
+.pmu-episode { fill: var(--pmu-episode); }
+.pmu-episode-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; fill: var(--ink-2); letter-spacing: 0.04em; }
+.pmu-zero { stroke: var(--ink-2); stroke-width: 1; }
+.pmu-ylab { text-anchor: start; }
+.pmu-marker { cursor: pointer; stroke-width: 1.6; transition: r .1s; }
+.pmu-marker:hover, .pmu-marker-on { r: 6.5; }
+.pmu-marker:focus-visible { outline: 2px solid var(--accent); }
+.pmu-key-markers { margin-left: auto; gap: 6px; }
+.pmu-key-audit { background: var(--ink); }
+.pmu-key-auto { background: var(--paper) !important; border: 1.5px solid var(--ink); box-sizing: border-box; }
+.pmu-callout {
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 2px; background: var(--card);
+  padding: 20px 24px; margin: 18px 0 8px; min-height: 64px;
+}
+.pmu-callout .ps-hint-sm { padding: 0; }
+.pmu-callout h3 { margin: 4px 0 6px; font-size: 20px; }
+.pmu-callout-meta { font-size: 14px; color: var(--ink-2); margin: 0 0 12px; max-width: 80ch; }
+.pmu-terms { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 8px; }
+.pmu-terms .eyebrow { margin: 0 6px 0 0; }
+.pmu-term {
+  font-family: "IBM Plex Mono", monospace; font-size: 11.5px; padding: 2px 8px; border-radius: 100px;
+  background: rgba(29, 78, 111, 0.08); color: var(--ink);
+}
+.pmu-term b { font-weight: 500; color: var(--ink-2); }
+.pmu-term-topic { background: rgba(138, 90, 14, 0.10); }
+.pmu-quotes { margin: 12px 0 6px; }
+.pmu-quotes blockquote { margin: 0 0 10px; padding: 10px 14px; border-left: 2px solid var(--rule); background: var(--pmu-quote); border-radius: 2px; }
+.pmu-quotes blockquote p { margin: 0; font-size: 14.5px; line-height: 1.5; color: var(--ink); }
+.pmu-quotes blockquote footer { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-2); margin-top: 5px; }
+.pmu-events { margin: 12px 0 0; }
+.pmu-events ul { list-style: none; margin: 6px 0 0; padding: 0; }
+.pmu-events li { font-size: 14px; color: var(--ink); margin: 0 0 4px; }
+.pmu-events li b { font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 12.5px; margin-right: 6px; }
+.pmu-events li span { color: var(--ink-2); font-size: 12.5px; }
+.pmu-callout-note { font-size: 12.5px; color: var(--ink-2); margin: 12px 0 0; max-width: 90ch; }
+.pmu-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; margin: 30px 0 0; align-items: start; }
+.pmu-scatter { margin-top: 10px; }
+.pmu-scatter-svg { width: 100%; height: auto; display: block; }
+.pmu-pt-label { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: var(--ink); }
+.ps-picker button small { color: var(--ink-2); font-size: 12px; margin-left: 6px; }
+@media (max-width: 860px) {
+  .pmu-maprow, .pmu-panels { grid-template-columns: 1fr; gap: 22px; }
+  .pmu-rankrow { grid-template-columns: 96px 1fr 84px; }
+}
+
+/* Lock card for the restricted dashboard */
+.pmu-lock {
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 2px; background: var(--card);
+  padding: 26px 28px; margin: 30px 0 34px; max-width: 640px;
+}
+.pmu-lock .eyebrow { margin-bottom: 10px; }
+.pmu-lock-lede { font-size: 15.5px; color: var(--ink-2); margin: 0 0 18px; }
+.pmu-lock-row { display: flex; gap: 10px; align-items: stretch; margin-top: 6px; }
+#pmu-pass {
+  flex: 1; padding: 10px 13px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink);
+  border-radius: 2px; font-family: "IBM Plex Mono", monospace; font-size: 15px;
+}
+#pmu-pass:focus { outline: none; border-color: var(--accent); }
+.pmu-lock-msg { font-size: 13.5px; color: var(--ink-2); margin: 10px 0 0; min-height: 1.4em; }
+.pmu-lock-bad { color: #A8112E; }
+.pmu-lock .pmu-note { margin-top: 16px; }
+@media (max-width: 620px) { .pmu-lock-row { flex-direction: column; } }
+

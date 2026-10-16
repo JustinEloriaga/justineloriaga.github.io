@@ -20,6 +20,8 @@ website:
             text: Papers
           - href: research/policy-space/index.qmd
             text: Policy space dashboard
+          - href: research/policymaker-uncertainty/index.qmd
+            text: Policymaker uncertainty dashboard
       - text: Teaching
         menu:
           - href: lecture-materials/index.qmd
