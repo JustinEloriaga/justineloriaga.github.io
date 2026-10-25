@@ -168,6 +168,9 @@ include-after-body:
     <div>
       <h3>The Fed&#x27;s Footprint on House Prices</h3>
       <details><summary>Abstract</summary><p>House prices reach the Federal Reserve two months late. Does that matter for how much monetary policy moves them, or for what the Federal Reserve could have done about the 2000s boom and the pandemic surge? In a monthly U.S. structural vector autoregression from 1987 to 2025, identified with sign, policy-rule, and narrative restrictions, the lag matters for identification but not for outcomes. When the rule cannot respond to house prices within the month, the posterior median trough of real house prices after a 25-basis-point tightening is 0.03 to 0.15 percent across three price indices, though imprecisely estimated, and under every prior over rotations policy shocks have a posterior mean share of at most 10.2 percent of house price variance at two years. When it can, the trough reaches 0.34 to 0.72 percent, mostly through June 2022, and market-based surprises do not settle which timing is right. Yet the lag barely constrains policy. The same rule responding a month sooner, as real-time data would allow, would have kept house prices within 0.02 percent of their actual path, and a lean that raised the policy rate by about a percentage point at both peaks would have left them no lower. Policy shocks contributed little to either cycle on the full sample, although prior-robust bounds allow up to a third of the surge, and only indicators that record the anticipated tightening of 2022 attribute most of the ensuing decline in house prices to policy.</p></details>
+      <div class="links">
+        <a href="/files/feds-footprint-house-prices.pdf">PDF</a>
+      </div>
     </div>
   </article>
 
