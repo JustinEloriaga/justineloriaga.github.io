@@ -154,6 +154,14 @@ main.content { padding-top: 8px; }
 .tag.live { color: var(--flag); }
 .tag.out  { color: var(--accent); }
 .coauth { font-size: 15.5px; color: var(--ink-2); margin: 0; }
+/* Co-author links sit inside a muted line and there can be several per paper,
+   so they inherit the line's colour and carry only a faint underline. Turning
+   each one accent-blue would make the byline louder than the title. */
+.coauth a {
+  color: inherit; text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+.coauth a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .note   { font-size: 14.5px; color: var(--ink-2); margin: 8px 0 0; }
 
 .paper details { margin-top: 10px; }

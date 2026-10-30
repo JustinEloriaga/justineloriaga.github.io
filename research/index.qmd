@@ -86,7 +86,7 @@ include-after-body:
     <div class="tag">Working paper</div>
     <div>
       <h3>Narratives, Not Hard Restrictions: Identifying Oil-Market and Monetary Policy Shocks</h3>
-      <p class="coauth">with Ana María Herrera and Elena Pesavento</p>
+      <p class="coauth">with <a href="https://gattonweb.uky.edu/faculty/herrera/research.html">Ana María Herrera</a> and <a href="https://www.elenapesavento.com">Elena Pesavento</a></p>
       <details><summary>Abstract</summary><p>Set-identified structural VARs are routinely disciplined with hard point restrictions whose precise validity cannot be verified. Oil-market models cap the short-run supply elasticity and monetary models impose exact zeros in the policy rule. We show that a small number of narrative restrictions anchored to well-documented historical episodes can replace both devices. In a four-variable oil-market VAR, narrative restrictions reproduce the results of Kilian and Murphy (2014) without the elasticity bound. In a six-variable monetary VAR, they reproduce the benchmark of Arias, Caldara, and Rubio-Ramírez (2019) without the zero restrictions. History, rather than hard restrictions, disciplines the identified set.</p></details>
       <div class="links">
         <a href="/files/narratives-not-hard-restrictions.pdf">PDF</a>
@@ -107,7 +107,7 @@ include-after-body:
     <div class="tag">Working paper</div>
     <div>
       <h3>Trade Disruptions and Monetary Policy in Asia</h3>
-      <p class="coauth">with Qing Peng</p>
+      <p class="coauth">with <a href="https://alexispq.github.io/QingPeng.github.io/">Qing Peng</a></p>
       <details><summary>Abstract</summary><p>We study how heterogeneously Asian central banks respond to trade disruptions. Building on the policymaker uncertainty methodology of Cieslak et al. (2024), we construct text-based indices of perceived uncertainty and policy stance from 1,381 official documents published by ten Asian monetary authorities between 1999 and 2026. We add a trade policy uncertainty topic designed for precision, and we translate the dictionary into Chinese for the People’s Bank of China. The indices validate well: stance scores carry the correct sign in about 95 percent of more than fifty known policy phases, and every major uncertainty peak decomposes into a recognizable historical episode at the sentence level. Three findings stand out. First, trade policy uncertainty in central bank communication is a twin wave that appears in all ten jurisdictions, rising with the 2018–2019 trade war and again, more sharply in most cases, with the 2025 reciprocal tariff episode. Second, the same shock produced very different answers: in 2025 and 2026 the Bank of Japan communicated in strongly hawkish terms while the Philippines, India, Korea, Thailand, and China eased, so the dispersion of responses widened dramatically relative to 2018 and 2019. Third, the channel from inflation uncertainty to hawkish policy that Cieslak et al. (2024) document for the Federal Reserve appears in Asia exactly where inflation targeting is operative, and it is absent where it is not. Trade uncertainty, in contrast, reads dovish across the emerging markets.</p></details>
     </div>
   </article>
@@ -116,7 +116,7 @@ include-after-body:
     <div class="tag">Working paper</div>
     <div>
       <h3>Gold&#x27;s Grip: How the Fed Broke the Link</h3>
-      <p class="coauth">with Caroline Fohlin</p>
+      <p class="coauth">with <a href="https://carolinefohlin.org">Caroline Fohlin</a></p>
       <p class="note">Presented at the 2026 Mountain West Economic History Conference and the Joint 13th CEPR Economic History Symposium / 11th Banco de España Economic History Seminar</p>
       <details><summary>Abstract</summary><p>Before the United States had a central bank, gold flows were its monetary policy. We ask whether the founding of the Federal Reserve changed how external gold shocks reached the domestic economy. We identify gold shocks in a Bayesian structural VAR on monthly data from 1890 to 1927, using only the impact restrictions implied by a model of the gold-standard money market together with narrative restrictions drawn from documented inflow and outflow episodes on both sides of the founding. Although the restrictions bind only on impact, the identified shock produces the persistent liquidity effect and the delayed rise in the price level that the model predicts. Transmission changed sharply with the arrival of the Fed. Before it, a gold inflow of about 33 million dollars lowered the call money rate by about one percentage point, raised equity prices by almost three percent, and lifted industrial production and the price level by 1.6 and 0.7 percent within six months. After it, the call rate moved by a tenth as much, and output and prices barely responded. The pattern matches the comparative statics of a central bank that offsets gold flows and smooths interest rates.</p></details>
       <div class="links">
@@ -129,7 +129,7 @@ include-after-body:
     <div class="tag">Working paper</div>
     <div>
       <h3>Bad Tails, Bad Times</h3>
-      <p class="coauth">with Dmitry Malakhov</p>
+      <p class="coauth">with <a href="https://www.dmitrymalakhov.com/home">Dmitry Malakhov</a></p>
       <details><summary>Abstract</summary><p>A lender’s default loss is a put option on borrower revenue, so its value depends on the lower tail of the priced distribution, not on its variance. Because index options and corporate debt are priced by the same state prices, option-implied tail risk measures the terms on which lenders insure downside states, and it should matter for the real economy only when balance sheets are fragile enough that the downside state threatens default. We formalize this in a minimal model and test it on U.S. monthly data over 1996–2025, using a tail-risk factor extracted from the risk-neutral skewness and kurtosis of S&amp;P 500 options. Tail risk predicts nothing unconditionally. In recession states it contracts production on impact, predicts substantially higher future volatility of real activity, and raises inflation through financing costs, while implied variance transmits mainly as disinflationary demand weakness. Conditioning on an observable leverage index attenuates the recession interactions while sharpening their precision, confirming fragility rather than the business cycle as the true state variable. The option surface is thus a real-time, forward-looking gauge of macroeconomic vulnerability that state-averaged frameworks largely miss.</p></details>
       <div class="links">
         <!-- Draft is marked preliminary — "do not cite or circulate without permission".
@@ -189,7 +189,7 @@ include-after-body:
     <div class="tag">Work in progress</div>
     <div>
       <h3>Agnostic Identification in Panel VARs</h3>
-      <p class="coauth">with Kim Huynh and David Jacho-Chávez</p>
+      <p class="coauth">with <a href="https://scholar.google.com/citations?user=pgS4eTQAAAAJ&amp;hl=en">Kim Huynh</a> and <a href="https://www.davidjachochavez.org">David Jacho-Chávez</a></p>
       <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
       <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
       -->
@@ -200,7 +200,7 @@ include-after-body:
     <div class="tag">Work in progress</div>
     <div>
       <h3>The Information Component of Chinese Economic Policy</h3>
-      <p class="coauth">with Qing Peng and Chang Ma</p>
+      <p class="coauth">with <a href="https://alexispq.github.io/QingPeng.github.io/">Qing Peng</a> and <a href="https://machang.weebly.com">Chang Ma</a></p>
       <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
       <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
       -->
@@ -211,7 +211,7 @@ include-after-body:
     <div class="tag">Work in progress</div>
     <div>
       <h3>The Energy Bottleneck: AI-Driven Growth and Power Constraints in Emerging Asia</h3>
-      <p class="coauth">with Juhee Kim and Jung Jae Kim</p>
+      <p class="coauth">with <a href="https://juheekim.org/#cv">Juhee Kim</a> and <a href="https://jungjaekim.org">Jung Jae Kim</a></p>
       <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
       <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
       -->
@@ -222,7 +222,7 @@ include-after-body:
     <div class="tag">Work in progress</div>
     <div>
       <h3>Uncertainty Spillovers of U.S. Monetary Policy</h3>
-      <p class="coauth">with Alessia Scudiero</p>
+      <p class="coauth">with <a href="https://www.alessiascudiero.com">Alessia Scudiero</a></p>
       <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
       <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
       -->
@@ -233,7 +233,7 @@ include-after-body:
     <div class="tag">Work in progress</div>
     <div>
       <h3>Remittance Shocks, Insurance, and Overborrowing</h3>
-      <p class="coauth">with Jafet Baca</p>
+      <p class="coauth">with <a href="https://www.jbacaob.com">Jafet Baca</a></p>
       <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
       <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
       -->
@@ -244,7 +244,7 @@ include-after-body:
     <div class="tag">Working paper</div>
     <div>
       <h3>Praying for Rain: A Comment on “Rainfall and the Democratic Window of Opportunity”</h3>
-      <p class="coauth">with Kim Huynh and David Jacho-Chávez</p>
+      <p class="coauth">with <a href="https://scholar.google.com/citations?user=pgS4eTQAAAAJ&amp;hl=en">Kim Huynh</a> and <a href="https://www.davidjachochavez.org">David Jacho-Chávez</a></p>
       <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
       <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
       -->
@@ -258,7 +258,7 @@ include-after-body:
     <div class="tag">Work in progress</div>
     <div>
       <h3>Exchange Traded Funds and Market Volatility</h3>
-      <p class="coauth">with Jung Jae Kim</p>
+      <p class="coauth">with <a href="https://jungjaekim.org">Jung Jae Kim</a></p>
       <!-- ABSTRACT — delete these two comment lines and edit the text between <p> and </p>
       <details><summary>Abstract</summary><p>Paste the abstract here.</p></details>
       -->
